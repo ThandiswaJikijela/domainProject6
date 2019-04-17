@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ee1c241-39bb-4b33-b87d-a98eca3105c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/Staff/SpaAdminFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/Staff/SpaAdminFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/factory/Staff/SpaAdminFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/factory/Staff/SpaAdminFactoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Payment.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/factory/Staff/SpaAdminFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/factory/PaymentFactoryTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Staff/SpaAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -48,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/factory/Treatment/Body/BodyMaskFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/Treatment/Body/BodyWrapFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Treatment/Facial/DeepCleansing.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/Treatment/Facial/AntiAgingFacialFactory.java" />
@@ -99,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/Treatment/Nail/NailTreatment.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Treatment/Nail/Pedicure.java" />
         <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/Staff/SpaAdminFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -158,6 +160,33 @@
               <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
               <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Booking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="LogIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Staff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +204,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="LogIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="Staff" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -185,13 +232,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555496794537" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555499247229" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -220,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentFactoryTest.getPayment">
+  <component name="RunManager" selected="JUnit.SpaAdminFactoryTest.getSpaAdmin">
     <configuration name="CancelationFactoryTest.getCancelation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domain" />
       <extension name="coverage">
@@ -232,22 +279,6 @@
       <option name="PACKAGE_NAME" value="factory" />
       <option name="MAIN_CLASS_NAME" value="factory.CancelationFactoryTest" />
       <option name="METHOD_NAME" value="getCancelation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManicureFactoryTest.getManicure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="domain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factory.Treatment.Nail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="factory.Treatment.Nail" />
-      <option name="MAIN_CLASS_NAME" value="factory.Treatment.Nail.ManicureFactoryTest" />
-      <option name="METHOD_NAME" value="getManicure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -285,6 +316,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpaAdminFactoryTest.getSpaAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.Staff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factory.Staff" />
+      <option name="MAIN_CLASS_NAME" value="factory.Staff.SpaAdminFactoryTest" />
+      <option name="METHOD_NAME" value="getSpaAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreatmentFactoryTest.getTreatment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domain" />
       <extension name="coverage">
@@ -303,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpaAdminFactoryTest.getSpaAdmin" />
         <item itemvalue="JUnit.PaymentFactoryTest.getPayment" />
         <item itemvalue="JUnit.CancelationFactoryTest.getCancelation" />
         <item itemvalue="JUnit.TreatmentFactoryTest.getTreatment" />
         <item itemvalue="JUnit.PedicureFactoryTest.getPedicure" />
-        <item itemvalue="JUnit.ManicureFactoryTest.getManicure" />
       </list>
     </recent_temporary>
   </component>
@@ -325,17 +372,11 @@
       <workItem from="1555317160464" duration="17641000" />
       <workItem from="1555409598666" duration="20309000" />
       <workItem from="1555444039284" duration="21714000" />
-      <workItem from="1555495765417" duration="979000" />
+      <workItem from="1555495765417" duration="3384000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SwedishMassageFactoryTest_getSwedishMassage - 2019.04.17 at 00h 34m 11s.xml">
-      <configuration name="SwedishMassageFactoryTest.getSwedishMassage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TissueMassageFactoryTest_getTissueMassage - 2019.04.17 at 00h 38m 47s.xml">
-      <configuration name="TissueMassageFactoryTest.getTissueMassage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MassageTreatmentFactoryTest_getMassageTreatment - 2019.04.17 at 00h 41m 16s.xml">
       <configuration name="MassageTreatmentFactoryTest.getMassageTreatment" configurationId="JUnit" />
     </history-entry>
@@ -360,9 +401,15 @@
     <history-entry file="PaymentFactoryTest_getPayment - 2019.04.17 at 11h 44m 16s.xml">
       <configuration name="PaymentFactoryTest.getPayment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PaymentFactoryTest_getPayment - 2019.04.17 at 12h 27m 10s.xml">
+      <configuration name="PaymentFactoryTest.getPayment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpaAdminFactoryTest_getSpaAdmin - 2019.04.17 at 13h 03m 37s.xml">
+      <configuration name="SpaAdminFactoryTest.getSpaAdmin" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68990000" />
+    <option name="totallyTimeSpent" value="71395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -387,7 +434,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33060557" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,48 +482,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Treatment/Facial/AntiAgingFacialFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="74" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Treatment/Massage/AromatherapyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/Treatment/Massage/AromatherapyFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Treatment/Massage/SwedishMassageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Treatment/Massage/TissueMassageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/Treatment/Massage/MassageTreatmentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory/Treatment/Massage/MassageTreatmentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -611,13 +616,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/Staff/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Staff/SpaAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -790,8 +788,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/factory/PaymentFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/Booking/BookingFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/LogIn/LogInFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/Staff/StaffFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/LogIn/RegisterFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/Staff/EmployeeFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Staff/SpaAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/Staff/SpaAdminFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
