@@ -1,4 +1,10 @@
 package repository.Treatment.Facial;
 
-public class DeepCleansingRepository {
+import domain.Treatment.Facial.DeepCleansing;
+import repository.IRepository;
+
+import java.util.Set;
+
+public interface DeepCleansingRepository extends IRepository<DeepCleansing, String> {
+    Set<DeepCleansing> getAll();
 }

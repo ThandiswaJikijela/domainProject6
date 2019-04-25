@@ -5,14 +5,15 @@ import domain.Spa;
 import java.util.Set;
 
 public class Treatment {
-    private String name, treatmentID, decription;
+    private String name, treatmentID, description;
 
-    private Treatment(){}
+    protected Treatment(){}
 
     private Treatment(Builder builder)
     {
         this.name = builder.name;
         this.treatmentID = builder.treatmentID;
+        this.description = builder.description;
     }
 
     public String getName() {
@@ -23,8 +24,12 @@ public class Treatment {
         return treatmentID;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
     public static class Builder{
-        private String name, treatmentID, decription;
+        private String name, treatmentID, description;
         private Set<domain.Spa> Spa;
 
         public Builder name(String name)
@@ -39,6 +44,12 @@ public class Treatment {
             return this;
         }
 
+        public Builder description(String description)
+        {
+            this.description = description;
+            return this;
+        }
+
         public Treatment build(){
             return new Treatment(this);
         }
@@ -48,6 +59,7 @@ public class Treatment {
             return"Treatment{" +
                     "Name ='" +name+ '\'' +
                     ", Treatment ID='" + treatmentID + '\'' +
+                    "Description = '" + description + '\'' +
                     '}';
         }
 }

@@ -10,9 +10,9 @@ public class BodyTreatmentFactoryTest {
 
     @Test
     public void getBodyTreatment() {
-        String description = "body treatment is that it is just as important to cleanse, exfoliate, and hydrate the skin on your body";
-        BodyTreatment body = BodyTreatmentFactory.getBodyTreatment(description);
+        String treatmentType = "Body Mask";
+        BodyTreatment body = BodyTreatmentFactory.getBodyTreatment(treatmentType);
         System.out.println(body);
-        Assert.assertNotNull(body.getDescription());
+        Assert.assertNotNull(body.toString());
     }
 }

@@ -4,34 +4,27 @@ import domain.Treatment.Treatment;
 
 import java.util.Set;
 
-public class MassageTreatment{
-    private String name, treatmentID, description, massageType;
+public class MassageTreatment extends Treatment{
+    private String massageType;
 
-    protected MassageTreatment(){}
+    protected MassageTreatment(){
+        super();
+    }
 
     private MassageTreatment(Builder builder)
     {
-        this.name = builder.name;
         this.massageType = builder.massageType;
     }
 
-    public String getName() {
-        return name;
-    }
 
     public String getMassageType() {
         return massageType;
     }
 
     public static class Builder{
-        private String name, treatmentID, description, massageType;
+        private String massageType;
         private Set<Treatment>Treatment;
 
-        public Builder name(String name)
-        {
-            this.name = name;
-            return this;
-        }
 
         public Builder massageType(String massageType)
         {
@@ -47,8 +40,7 @@ public class MassageTreatment{
 
     public String toString(){
         return"MassageTreatment{" +
-                "Name ='" +name+ '\'' +
-                ", Massage Type='" + massageType + '\'' +
+                "Massage Type ='" + massageType + '\'' +
                 '}';
     }
 }

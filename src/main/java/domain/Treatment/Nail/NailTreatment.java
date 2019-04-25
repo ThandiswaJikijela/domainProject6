@@ -4,11 +4,13 @@ import domain.Treatment.Treatment;
 
 import java.util.Set;
 
-public class NailTreatment {
+public class NailTreatment extends Treatment{
     private String nailType, nailShape;
     private int nailSize;
 
-    protected NailTreatment(){}
+    protected NailTreatment(){
+        super();
+    }
 
     private NailTreatment(Builder builder)
     {

@@ -1,4 +1,10 @@
 package repository.Treatment;
 
-public class TreatmentRepository {
+import domain.Treatment.Treatment;
+import repository.IRepository;
+
+import java.util.Set;
+
+public interface TreatmentRepository extends IRepository<Treatment, String> {
+    Set<Treatment> getAll();
 }

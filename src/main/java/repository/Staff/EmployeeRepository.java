@@ -1,4 +1,10 @@
 package repository.Staff;
 
-public class EmployeeRepository {
+import domain.Staff.Employee;
+import repository.IRepository;
+
+import java.util.Set;
+
+public interface EmployeeRepository extends IRepository<Employee, String> {
+    Set<Employee> getAll();
 }

@@ -5,26 +5,18 @@ import domain.Treatment.Treatment;
 
 import java.util.Set;
 
-public class FacialTreatment {
-    private String name, treatmentID, skinCareProducts;
-    private String treatmentType;
+public class FacialTreatment extends Treatment{
+
+    private String treatmentType, skinCareProducts;
 
 
-    protected FacialTreatment(){}
+    protected FacialTreatment(){
+        super();
+    }
 
     private FacialTreatment(Builder builder)
     {
-        this.name = builder.name;
-        this.treatmentID = builder.treatmentID;
         this.treatmentType = builder.treatmentType;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getTreatmentID() {
-        return treatmentID;
     }
 
     public String getTreatmentType() {
@@ -32,18 +24,8 @@ public class FacialTreatment {
     }
 
     public static class Builder {
-        private String name, treatmentID, decription, treatmentType, skinCareProducts;
+        private String treatmentType, skinCareProducts;
         private Set<domain.Treatment.Treatment> Treatment;
-
-        public Builder name(String name) {
-            this.name = name;
-            return this;
-        }
-
-        public Builder treatmentID(String treatmentID) {
-            this.treatmentID = treatmentID;
-            return this;
-        }
 
         public Builder treatmentType(String treatmentType) {
             this.treatmentType = treatmentType;
@@ -57,9 +39,7 @@ public class FacialTreatment {
     }
         public String toString(){
             return"FacialTreatment{" +
-                    "Name ='" +name+ '\'' +
-                    ", Treatment ID='" + treatmentID + '\'' +
-                    ", Treatment Type='" + treatmentType + '\'' +
+                    "Treatment Type ='" + treatmentType + '\'' +
                     '}';
         }
 }
