@@ -23,7 +23,7 @@ public class MassageTreatment extends Treatment{
 
     public static class Builder{
         private String massageType;
-        private Set<Treatment>Treatment;
+        //private Set<Treatment>Treatment;
 
 
         public Builder massageType(String massageType)

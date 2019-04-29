@@ -21,7 +21,7 @@ public class SwedishMassage extends MassageTreatment{
 
     public static class Builder{
         private String carrierOil;
-        private Set<MassageTreatment> MassageTreatment;
+        //private Set<MassageTreatment> MassageTreatment;
 
         public Builder carrierOil(String carrierOil)
         {

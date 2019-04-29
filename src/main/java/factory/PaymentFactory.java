@@ -2,11 +2,13 @@ package factory;
 
 import domain.Payment;
 
+import java.util.Map;
+
 public class PaymentFactory {
-    public static Payment getPayment (String creditCardNo, double refund, String customerID) {
-        return new Payment.Builder().creditCardNo(creditCardNo)
+    public static Payment getPayment (Map<String, String> values,double refund) {
+        return new Payment.Builder().creditCardNo(values.get("creditCardNo"))
                 .refund(refund)
-                .customerID(customerID)
+                .customerID(values.get("customerID"))
                 .build();
     }
 }

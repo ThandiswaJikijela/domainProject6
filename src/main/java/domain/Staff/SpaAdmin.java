@@ -25,7 +25,7 @@ public class SpaAdmin extends Staff{
 
     public static class Builder{
         private String adminID,password;
-        private Set<SpaAdmin> SpaAdmin;
+        //private Set<SpaAdmin> SpaAdmin;
 
         public Builder adminID(String adminID)
         {

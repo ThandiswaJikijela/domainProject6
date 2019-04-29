@@ -2,13 +2,15 @@ package factory;
 
 import domain.Member;
 
+import java.util.Map;
+
 public class MemberFactory {
-    public static Member getMember(String address) {
+    public static Member getMember(Map<String, String> values,String address) {
         return new Member.Builder()
-                //.name(name)
+                .name(values.get(""))
                 .address(address)
-                //.id(id)
-                //.phoneNumber(phoneNumber)
+                .id(values.size())
+                .phoneNumber(values.get(""))
                 .build();
     }
 }

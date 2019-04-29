@@ -20,7 +20,7 @@ public class Manicure extends NailTreatment {
 
     public static class Builder{
         private String nailStyle;
-        private Set<NailTreatment> nailTreatmentSet;
+        //private Set<NailTreatment> nailTreatmentSet;
 
         public Builder nailStyle(String nailStyle)
         {

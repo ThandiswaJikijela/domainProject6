@@ -8,6 +8,8 @@ public class Staff {
     private Staff(Builder builder){
         this.name = builder.name;
         this.email = builder.email;
+        this.phone = builder.phone;
+        this.address = builder.address;
     }
 
     public String getName() {
@@ -16,6 +18,14 @@ public class Staff {
 
     public String getEmail() {
         return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getAddress() {
+        return address;
     }
 
     public static class Builder{
@@ -33,6 +43,18 @@ public class Staff {
             return this;
         }
 
+        public Builder phone(String phone)
+        {
+            this.phone = phone;
+            return this;
+        }
+
+        public Builder address(String address)
+        {
+            this.address = address;
+            return this;
+        }
+
         public Staff build(){
             return new Staff(this);
         }
@@ -40,7 +62,9 @@ public class Staff {
     public String toString(){
         return"Staff{" +
                 "Name'" +name+ '\'' +
-                ", Email='" + email + '\'' +
+                ", Email ='" + email + '\'' +
+                ", Phone Number ='" + phone + '\'' +
+                ", Address='" + address + '\'' +
                 '}';
     }
 }

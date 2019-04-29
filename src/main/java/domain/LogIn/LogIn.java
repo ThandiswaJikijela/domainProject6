@@ -35,7 +35,7 @@ public class LogIn {
 
     public static class Builder{
         private String username, password;
-        private Set<Member> member;
+        //private Set<Member> member;
 
         public Builder username(String username)
         {

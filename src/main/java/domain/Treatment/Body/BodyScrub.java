@@ -21,7 +21,7 @@ public class BodyScrub extends BodyTreatment {
     public static class Builder
     {
         private String grittyIngredients;
-        private Set<BodyTreatment>BodyTreatment;
+        //private Set<BodyTreatment>BodyTreatment;
 
         public Builder grittyIngredients(String grittyIngredients)
         {

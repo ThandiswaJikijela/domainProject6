@@ -3,32 +3,52 @@ package repository.Impl.Treatment.Massage;
 import domain.Treatment.Massage.SwedishMassage;
 import repository.Treatment.Massage.SwedishMassageRepository;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class SwedishMassageRepositoryImpl implements SwedishMassageRepository {
 
+    private static SwedishMassageRepositoryImpl repository = null;
+    private Map<String, SwedishMassage> massageMap;
+
+    private SwedishMassageRepositoryImpl(){
+        this.massageMap = new HashMap<String, SwedishMassage>();
+    }
+
+    public static SwedishMassageRepositoryImpl getRepository()
+    {
+        if (repository == null) repository = new SwedishMassageRepositoryImpl();
+        return repository;
+    }
+
     @Override
     public SwedishMassage create(SwedishMassage swedishMassage) {
-        return null;
-    }
-
-    @Override
-    public SwedishMassage update(SwedishMassage swedishMassage) {
-        return null;
-    }
-
-    @Override
-    public void delete(String s) {
-
+        massageMap.put(swedishMassage.getCarrierOil(),swedishMassage);
+        SwedishMassage savedSwedishMassage = massageMap.get(toString());
+        return savedSwedishMassage;
     }
 
     @Override
     public SwedishMassage read(String s) {
-        return null;
+        SwedishMassage swedishMassage = massageMap.get(toString());
+        return swedishMassage;
+    }
+
+    @Override
+    public SwedishMassage update(SwedishMassage swedishMassage) {
+        massageMap.put(swedishMassage.toString(),swedishMassage);
+        SwedishMassage savedSwedishMassage = massageMap.get(toString());
+        return savedSwedishMassage;
+    }
+
+    @Override
+    public void delete(String s) {
+        massageMap.remove(toString());
     }
 
     @Override
     public Set<SwedishMassage> getAll() {
-        return null;
+        return (Set<SwedishMassage>) massageMap;
     }
 }

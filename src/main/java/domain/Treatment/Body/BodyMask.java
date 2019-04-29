@@ -20,7 +20,7 @@ public class BodyMask extends BodyTreatment {
 
     public static class Builder{
         private String maskIngredients;
-        private Set<BodyTreatment>BodyTreatment;
+        //private Set<BodyTreatment>BodyTreatment;
 
         public Builder maskIngredients(String maskIngredients)
         {

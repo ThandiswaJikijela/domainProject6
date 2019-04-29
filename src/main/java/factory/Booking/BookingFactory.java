@@ -2,8 +2,10 @@ package factory.Booking;
 
 import domain.Booking.Booking;
 
+import java.util.Map;
+
 public class BookingFactory {
-    public static Booking getBooking(String reservationID, String treatmentType, double totalPrice) {
+    public static Booking getBooking(Map<String, String> values, String reservationID, String treatmentType, double totalPrice) {
         return new Booking.Builder().reservationID(reservationID)
                 .treatmentType(treatmentType)
                 .totalPrice(totalPrice)

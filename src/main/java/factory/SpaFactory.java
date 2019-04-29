@@ -2,10 +2,12 @@ package factory;
 
 import domain.Spa;
 
+import java.util.Map;
+
 public class SpaFactory {
-    public static Spa getSpa(String spaName,String address) {
+    public static Spa getSpa(Map<String, String> values, String spaName) {
         return new Spa.Builder().spaName(spaName)
-                .address(address)
+                .address(values.get("address"))
                 .build();
     }
 }

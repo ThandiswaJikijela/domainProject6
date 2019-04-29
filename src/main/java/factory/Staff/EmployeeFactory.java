@@ -2,10 +2,13 @@ package factory.Staff;
 
 import domain.Staff.Employee;
 
+import java.util.Map;
+
 public class EmployeeFactory {
-    public static Employee getEmployee(String username, String password) {
+    public static Employee getEmployee(Map<String, String> values, String username) {
         return new Employee.Builder().username(username)
-                .password(password)
+                .password(values.get("password"))
+                .employeeID(values.get("employeeID"))
                 .build();
     }
 }

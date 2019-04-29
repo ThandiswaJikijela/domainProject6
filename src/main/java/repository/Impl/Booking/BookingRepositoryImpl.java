@@ -34,18 +34,20 @@ public class BookingRepositoryImpl implements BookingRepository{
     @Override
     public Booking update(Booking booking) {
         bookingTable.put(booking.getReservationID(),booking);
-        Booking booking1 = bookingTable.get(booking.getReservationID());
+        bookingTable.put(booking.getTreatmentType(),booking);
+        Booking booking1 = bookingTable.get(booking.toString());
         return booking1;
     }
 
     @Override
     public void delete(String reservationID) {
-        bookingTable.remove(reservationID);
+
+        bookingTable.remove(toString());
     }
 
     @Override
     public Booking read(String reservationID) {
-        Booking booking = bookingTable.get(reservationID);
+        Booking booking = bookingTable.get(toString());
         return booking;
     }
 

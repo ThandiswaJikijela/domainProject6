@@ -30,7 +30,7 @@ public class Treatment {
 
     public static class Builder{
         private String name, treatmentID, description;
-        private Set<domain.Spa> Spa;
+        //private Set<domain.Spa> Spa;
 
         public Builder name(String name)
         {

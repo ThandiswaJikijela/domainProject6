@@ -2,9 +2,14 @@ package factory.Staff;
 
 import domain.Staff.Staff;
 
+import java.util.Map;
+
 public class StaffFactory {
-    public static Staff getStaff(String name, String email) {
-        return new Staff.Builder().name(name)
+    public static Staff getStaff(Map<String, String> values, String email) {
+        return new Staff.Builder()
+                .name(values.get("name"))
+                .phone(values.get("phone"))
+                .address(values.get("address"))
                 .email(email)
                 .build();
     }

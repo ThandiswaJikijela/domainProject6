@@ -29,7 +29,7 @@ public class Employee extends Staff {
 
     public static class Builder{
         private String employeeID, username, password;
-        private Set<Staff> staff;
+        //private Set<Staff> staff;
 
         public Builder employeeID(String employeeID)
         {

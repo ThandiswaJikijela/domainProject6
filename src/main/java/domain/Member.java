@@ -3,8 +3,8 @@ package domain;
 import java.util.Set;
 
 public class Member {
-    private String name, address;
-    private int id, phoneNumber;
+    private String name, address,phoneNumber;
+    private int id;
 
     private Member(){}
 
@@ -27,14 +27,14 @@ public class Member {
         return id;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
     public static class Builder{
-        private String name, address;
-        private int id, phoneNumber;
-        private Set<Spa> spa;
+        private String name, address, phoneNumber;
+        private int id;
+        //private Set<Spa> spa;
 
         public Builder name(String name)
         {
@@ -54,7 +54,7 @@ public class Member {
             return this;
         }
 
-        public Builder phoneNumber(int phoneNumber)
+        public Builder phoneNumber(String phoneNumber)
         {
             this.phoneNumber = phoneNumber;
             return this;

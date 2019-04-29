@@ -22,7 +22,7 @@ public class BodyTreatment extends Treatment{
 
     public static class Builder{
         private String treatmentType;
-        private Set<Treatment>Treatment;
+        //private Set<Treatment>Treatment;
 
         public Builder treatmentType(String treatmentType)
         {
@@ -37,7 +37,6 @@ public class BodyTreatment extends Treatment{
     }
     public String toString(){
         return"BodyTreatment{" +
-                "Description = '" + getDescription() + '\'' +
                 "Treatment Type ='" + treatmentType + '\'' +
                 '}';
     }

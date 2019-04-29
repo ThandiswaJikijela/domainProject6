@@ -21,7 +21,7 @@ public class Aromatherapy extends MassageTreatment{
 
     public static class Builder{
         private String fragrantEssentialOil;
-        private Set<MassageTreatment> MassageTreatment;
+        //private Set<MassageTreatment> MassageTreatment;
 
         public Builder fragrantEssentialOil(String fragrantEssentialOil)
         {

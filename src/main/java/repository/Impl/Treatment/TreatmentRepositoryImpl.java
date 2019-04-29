@@ -3,32 +3,54 @@ package repository.Impl.Treatment;
 import domain.Treatment.Treatment;
 import repository.Treatment.TreatmentRepository;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class TreatmentRepositoryImpl implements TreatmentRepository {
 
+    private static TreatmentRepositoryImpl repository = null;
+    private Map<String, Treatment> treatmentMap;
+
+    private TreatmentRepositoryImpl(){
+        this.treatmentMap = new HashMap<String, Treatment>();
+    }
+
+    public static TreatmentRepositoryImpl getRepository()
+    {
+        if (repository == null) repository = new TreatmentRepositoryImpl();
+        return repository;
+    }
+
     @Override
     public Treatment create(Treatment treatment) {
-        return null;
+        treatmentMap.put(treatment.getName(),treatment);
+        treatmentMap.put(treatment.getTreatmentID(),treatment);
+        treatmentMap.put(treatment.getDescription(),treatment);
+        Treatment savedTreatment = treatmentMap.get(toString());
+        return savedTreatment;
+    }
+
+    @Override
+    public Treatment read(String l) {
+        Treatment treatment = treatmentMap.get(toString());
+        return treatment;
     }
 
     @Override
     public Treatment update(Treatment treatment) {
-        return null;
+        treatmentMap.put(treatment.toString(),treatment);
+        Treatment savedTreatment = treatmentMap.get(toString());
+        return savedTreatment;
     }
 
     @Override
-    public void delete(String s) {
-
-    }
-
-    @Override
-    public Treatment read(String s) {
-        return null;
+    public void delete(String l) {
+        treatmentMap.remove(toString());
     }
 
     @Override
     public Set<Treatment> getAll() {
-        return null;
+        return (Set<Treatment>) treatmentMap;
     }
 }

@@ -34,7 +34,7 @@ public class NailTreatment extends Treatment{
     public static class Builder {
         private String nailType, nailShape;
         private int nailSize;
-        private Set<Treatment>Treatment;
+        //private Set<Treatment>Treatment;
 
         public Builder nailType(String nailType)
         {

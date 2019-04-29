@@ -3,32 +3,53 @@ package repository.Impl.Treatment.Nail;
 import domain.Treatment.Nail.NailTreatment;
 import repository.Treatment.Nail.NailTreatmentRepository;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class NailTreatmentRepositoryImpl implements NailTreatmentRepository {
 
-    @Override
-    public NailTreatment create(NailTreatment nailTreatment) {
-        return null;
+    private static NailTreatmentRepositoryImpl repository = null;
+    private Map<String, NailTreatment> nailTreatmentTable;
+
+    private NailTreatmentRepositoryImpl(){
+        this.nailTreatmentTable = new HashMap<String, NailTreatment>();
+    }
+
+    public static NailTreatmentRepositoryImpl getRepository()
+    {
+        if (repository == null) repository = new NailTreatmentRepositoryImpl();
+        return repository;
     }
 
     @Override
-    public NailTreatment update(NailTreatment nailTreatment) {
-        return null;
+    public NailTreatment create(NailTreatment treatment) {
+        nailTreatmentTable.put(treatment.getNailType(),treatment);
+        nailTreatmentTable.put(treatment.getNailShape(),treatment);
+        NailTreatment savedTreatment = nailTreatmentTable.get(toString());
+        return savedTreatment;
     }
 
     @Override
-    public void delete(String s) {
-
+    public NailTreatment read(String n) {
+        NailTreatment treatment = nailTreatmentTable.get(toString());
+        return treatment;
     }
 
     @Override
-    public NailTreatment read(String s) {
-        return null;
+    public NailTreatment update(NailTreatment treatment) {
+        nailTreatmentTable.put(treatment.toString(),treatment);
+        NailTreatment savedTreatment = nailTreatmentTable.get(toString());
+        return savedTreatment;
+    }
+
+    @Override
+    public void delete(String n) {
+        nailTreatmentTable.remove(toString());
     }
 
     @Override
     public Set<NailTreatment> getAll() {
-        return null;
+        return (Set<NailTreatment>) nailTreatmentTable;
     }
 }

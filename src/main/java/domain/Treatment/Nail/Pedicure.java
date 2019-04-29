@@ -23,7 +23,7 @@ public class Pedicure extends NailTreatment {
 
     public static class Builder{
         private String mediHeelPedicure;
-        private Set<NailTreatment> nailTreatmentSet;
+        //private Set<NailTreatment> nailTreatmentSet;
 
         public Builder mediHeelPedicure(String mediHeelPedicure)
         {

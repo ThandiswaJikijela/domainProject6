@@ -20,7 +20,7 @@ public class BodyWraps extends BodyTreatment {
 
     public static class Builder{
         private String wrapMaterials;
-        private Set<BodyTreatment> BodyTreatment;
+        //private Set<BodyTreatment> BodyTreatment;
 
         public Builder wrapMaterials(String wrapMaterials)
         {

@@ -2,14 +2,16 @@ package factory.LogIn;
 
 import domain.LogIn.Register;
 
+import java.util.Map;
+
 public class RegisterFactory {
-    public static Register getRegister(String name, String address, String email, String username, String password)
+    public static Register getRegister(Map<String, String> values, String name)
     {
         return new Register.Builder().name(name)
-                .address(address)
-                .email(email)
-                .username(username)
-                .password(password)
+                .address(values.get("address"))
+                .email(values.get("email"))
+                .username(values.get("username"))
+                .password(values.get("password"))
                 .build();
     }
 }

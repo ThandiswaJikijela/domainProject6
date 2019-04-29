@@ -20,7 +20,7 @@ public class AntAgingFacial extends FacialTreatment{
 
     public static class Builder{
         private String poreIngredients;
-        private Set<FacialTreatment> FacialTreatment;
+        //private Set<FacialTreatment> FacialTreatment;
 
         public Builder poreIngredients(String poreIngredients)
         {
