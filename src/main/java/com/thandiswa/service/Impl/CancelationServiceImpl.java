@@ -4,9 +4,11 @@ import com.thandiswa.domain.Cancelation;
 import com.thandiswa.repository.CancelationRepository;
 import com.thandiswa.repository.Impl.CancelationRepositoryImpl;
 import com.thandiswa.service.CancelationService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class CancelationServiceImpl implements CancelationService {
     private static CancelationServiceImpl service = null;
     private CancelationRepository repository;

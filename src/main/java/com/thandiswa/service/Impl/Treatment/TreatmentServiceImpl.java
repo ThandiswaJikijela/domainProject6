@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Treatment;
 import com.thandiswa.repository.Impl.Treatment.TreatmentRepositoryImpl;
 import com.thandiswa.repository.Treatment.TreatmentRepository;
 import com.thandiswa.service.Treatment.TreatmentService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class TreatmentServiceImpl implements TreatmentService {
     private static TreatmentServiceImpl service = null;
     private TreatmentRepository repository;

@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Body.BodyWraps;
 import com.thandiswa.repository.Impl.Treatment.Body.BodyWrapsRepositoryImpl;
 import com.thandiswa.repository.Treatment.Body.BodyWrapsRepository;
 import com.thandiswa.service.Treatment.Body.BodyWrapsService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class BodyWrapsServiceImpl implements BodyWrapsService {
     private static BodyWrapsServiceImpl service = null;
     private BodyWrapsRepository repository;

@@ -7,10 +7,10 @@ import java.util.Map;
 public class MemberFactory {
     public static Member getMember(Map<String, String> values,String address) {
         return new Member.Builder()
-                .name(values.get(""))
+                .name(values.get("name"))
                 .address(address)
                 .id(values.size())
-                .phoneNumber(values.get(""))
+                .phoneNumber(values.get("phoneNumber"))
                 .build();
     }
 }

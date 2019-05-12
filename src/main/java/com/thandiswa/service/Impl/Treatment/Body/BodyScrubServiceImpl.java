@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Body.BodyScrub;
 import com.thandiswa.repository.Impl.Treatment.Body.BodyScrubRepositoryImpl;
 import com.thandiswa.repository.Treatment.Body.BodyScrubRepository;
 import com.thandiswa.service.Treatment.Body.BodyScrubService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class BodyScrubServiceImpl implements BodyScrubService {
     private static BodyScrubServiceImpl service = null;
     private BodyScrubRepository repository;

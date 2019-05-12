@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Nail.NailTreatment;
 import com.thandiswa.repository.Impl.Treatment.Nail.NailTreatmentRepositoryImpl;
 import com.thandiswa.repository.Treatment.Nail.NailTreatmentRepository;
 import com.thandiswa.service.Treatment.Nail.NailTreatmentService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class NailTreatmentServiceImpl implements NailTreatmentService {
     private static NailTreatmentServiceImpl service = null;
     private NailTreatmentRepository repository;

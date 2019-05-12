@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Massage.Aromatherapy;
 import com.thandiswa.repository.Impl.Treatment.Massage.AromatherapyRepositoryImpl;
 import com.thandiswa.repository.Treatment.Massage.AromatherapyRepository;
 import com.thandiswa.service.Treatment.Massage.AromatherapyService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class AromatherapyServiceImpl implements AromatherapyService {
     private static AromatherapyServiceImpl service = null;
     private AromatherapyRepository repository;

@@ -4,9 +4,10 @@ import com.thandiswa.domain.LogIn.LogIn;
 import com.thandiswa.repository.Impl.Login.LoginRepositoryImpl;
 import com.thandiswa.repository.Login.LoginRepository;
 import com.thandiswa.service.Login.LoginService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class LoginServiceImpl implements LoginService {
     private static LoginServiceImpl service = null;
     private LoginRepository repository;

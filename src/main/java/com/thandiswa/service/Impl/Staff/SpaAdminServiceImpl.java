@@ -4,9 +4,11 @@ import com.thandiswa.domain.Staff.SpaAdmin;
 import com.thandiswa.repository.Impl.Staff.SpaAdminRepositoryImpl;
 import com.thandiswa.repository.Staff.SpaAdminRepository;
 import com.thandiswa.service.Staff.SpaAdminService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class SpaAdminServiceImpl implements SpaAdminService {
     private static SpaAdminServiceImpl service = null;
     private SpaAdminRepository repository;

@@ -4,9 +4,10 @@ import com.thandiswa.domain.Booking.Booking;
 import com.thandiswa.repository.Booking.BookingRepository;
 import com.thandiswa.repository.Impl.Booking.BookingRepositoryImpl;
 import com.thandiswa.service.Booking.BookingService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
+@Service
 public class BookingServiceImpl implements BookingService {
     private static BookingServiceImpl service = null;
     private BookingRepository repository;

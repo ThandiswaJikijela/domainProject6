@@ -4,9 +4,11 @@ import com.thandiswa.domain.LogIn.Register;
 import com.thandiswa.repository.Impl.Login.RegisterRepositoryImpl;
 import com.thandiswa.repository.Login.RegisterRepository;
 import com.thandiswa.service.Login.RegisterService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class RegisterServiceImpl implements RegisterService {
     private static RegisterServiceImpl service = null;
     private RegisterRepository repository;

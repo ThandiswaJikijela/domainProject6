@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Massage.TissueMassage;
 import com.thandiswa.repository.Impl.Treatment.Massage.TissueMassageRepositoryImpl;
 import com.thandiswa.repository.Treatment.Massage.TissueMassageRepository;
 import com.thandiswa.service.Treatment.Massage.TissueMassageService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class TissueMassageServiceImpl implements TissueMassageService {
     private static TissueMassageServiceImpl service = null;
     private TissueMassageRepository repository;

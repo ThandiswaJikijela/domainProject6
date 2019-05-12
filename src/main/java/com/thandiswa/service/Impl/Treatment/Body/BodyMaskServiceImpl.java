@@ -4,9 +4,11 @@ import com.thandiswa.domain.Treatment.Body.BodyMask;
 import com.thandiswa.repository.Impl.Treatment.Body.BodyMaskRepositoryImpl;
 import com.thandiswa.repository.Treatment.Body.BodyMaskRepository;
 import com.thandiswa.service.Treatment.Body.BodyMaskService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class BodyMaskServiceImpl implements BodyMaskService {
     private static BodyMaskServiceImpl service = null;
     private BodyMaskRepository repository;

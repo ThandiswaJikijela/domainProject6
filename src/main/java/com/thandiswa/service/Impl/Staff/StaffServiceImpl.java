@@ -4,9 +4,11 @@ import com.thandiswa.domain.Staff.Staff;
 import com.thandiswa.repository.Impl.Staff.StaffRepositoryImpl;
 import com.thandiswa.repository.Staff.StaffRepository;
 import com.thandiswa.service.Staff.StaffService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class StaffServiceImpl implements StaffService {
     private static StaffServiceImpl service = null;
     private StaffRepository repository;

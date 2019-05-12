@@ -4,9 +4,11 @@ import com.thandiswa.domain.Member;
 import com.thandiswa.repository.Impl.MemberRepositoryImpl;
 import com.thandiswa.repository.MemberRepository;
 import com.thandiswa.service.MemberService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class MemberServiceImpl implements MemberService {
     private static MemberServiceImpl service = null;
     private MemberRepository repository;
