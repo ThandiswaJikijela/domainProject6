@@ -1,6 +1,9 @@
 package com.thandiswa.domain.Treatment.Facial;
 
-public class DeepCleansing extends FacialTreatment{
+import java.util.Objects;
+
+public class DeepCleansing {
+    private FacialTreatment facialTreatment = new FacialTreatment();
     private String facialID, treatmentType, exfoliates, nourishments, oilTypes;
 
     private DeepCleansing()
@@ -44,8 +47,23 @@ public class DeepCleansing extends FacialTreatment{
 
     public String toString() {
         return "DeepCleansing{" +
+                ", ='" + facialTreatment.getTreatmentID()+ '\'' +
                 ", FacialID='" + facialID + '\'' +
                 ", Oil Types='" + oilTypes + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        DeepCleansing deepCleansing = (DeepCleansing) obj;
+        return facialID.equals(deepCleansing.facialID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(facialID);
+    }
+
 }

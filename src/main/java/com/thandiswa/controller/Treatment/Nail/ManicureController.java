@@ -14,12 +14,12 @@ public class ManicureController {
     @Autowired
     private ManicureServiceImpl service;
 
-    @GetMapping("/create/{nailStyle}")
+    /*@GetMapping("/create/{nailStyle}")
     public @ResponseBody
     Manicure create(@PathVariable String nailStyle){
         Manicure manicure = ManicureFactory.getManicure(nailStyle);
         return service.create(manicure);
-    }
+    }*/
 
     @GetMapping("/getAll")
     @ResponseBody

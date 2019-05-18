@@ -8,15 +8,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EmployeeFactoryTest {
-    private Map<String, String> values;
     @Test
     public void getEmployee() {
-        values = new HashMap<String, String>();
-        values.put("password","th63543@");
-        values.put("employeeID","76476612");
+
+        String password = "th63543@";
         String username = "William Bank";
-        Employee emp = EmployeeFactory.getEmployee(values,username);
+        Employee emp = EmployeeFactory.getEmployee(username, password);
         System.out.print(emp);
-        Assert.assertNotNull(emp.getUsername());
+        Assert.assertNotNull(emp.toString());
     }
 }

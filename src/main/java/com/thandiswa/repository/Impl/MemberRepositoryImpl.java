@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl;
 import com.thandiswa.domain.Member;
 import com.thandiswa.repository.MemberRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class MemberRepositoryImpl implements MemberRepository {
 
@@ -24,10 +22,8 @@ public class MemberRepositoryImpl implements MemberRepository {
 
     @Override
     public Member create(Member member) {
-        memberMap.put(member.getName(),member);
-        memberMap.put(member.getAddress(),member);
-        Member savedMember = memberMap.get(toString());
-        return savedMember;
+        this.memberMap.put(member.toString(),member);
+        return member;
     }
 
     @Override
@@ -38,9 +34,8 @@ public class MemberRepositoryImpl implements MemberRepository {
 
     @Override
     public Member update(Member member) {
-        memberMap.put(member.toString(),member);
-        Member savedMember = memberMap.get(toString());
-        return savedMember;
+        this.memberMap.put(member.toString(),member);
+        return this.memberMap.get(member.toString());
     }
 
     @Override
@@ -50,6 +45,9 @@ public class MemberRepositoryImpl implements MemberRepository {
 
     @Override
     public Set<Member> getAll() {
-        return (Set<Member>) memberMap;
+        Collection<Member> members = this.memberMap.values();
+        Set<Member> set = new HashSet<>();
+        set.addAll(members);
+        return set;
     }
 }

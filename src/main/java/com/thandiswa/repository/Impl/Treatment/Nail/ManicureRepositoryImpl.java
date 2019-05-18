@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Nail;
 import com.thandiswa.domain.Treatment.Nail.Manicure;
 import com.thandiswa.repository.Treatment.Nail.ManicureRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class ManicureRepositoryImpl implements ManicureRepository {
 
@@ -24,9 +22,8 @@ public class ManicureRepositoryImpl implements ManicureRepository {
 
     @Override
     public Manicure create(Manicure manicure) {
-        manicureMap.put(manicure.getNailStyle(),manicure);
-        Manicure savedManicure = manicureMap.get(toString());
-        return savedManicure;
+        this.manicureMap.put(manicure.toString(),manicure);
+        return manicure;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class ManicureRepositoryImpl implements ManicureRepository {
 
     @Override
     public Manicure update(Manicure manicure) {
-        manicureMap.put(manicure.toString(),manicure);
-        Manicure savedManicure = manicureMap.get(toString());
-        return savedManicure;
+        this.manicureMap.replace(manicure.toString(),manicure);
+        return this.manicureMap.get(manicure.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class ManicureRepositoryImpl implements ManicureRepository {
 
     @Override
     public Set<Manicure> getAll() {
-        return (Set<Manicure>) manicureMap;
+        Collection<Manicure> manicures = this.manicureMap.values();
+        Set<Manicure> set = new HashSet<>();
+        set.addAll(manicures);
+        return set;
     }
 }

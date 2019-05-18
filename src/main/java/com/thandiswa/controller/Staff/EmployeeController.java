@@ -17,7 +17,7 @@ public class EmployeeController {
     private EmployeeServiceImpl service;
     private Map<String, String> values;
 
-    @GetMapping("/create/{username}")
+   /* @GetMapping("/create/{username}")
     public @ResponseBody
     Employee create(@PathVariable String username){
         values = new HashMap<String,String>();
@@ -30,4 +30,6 @@ public class EmployeeController {
     public Set<Employee> getAll(){
         return service.getAll();
     }
+
+    */
 }

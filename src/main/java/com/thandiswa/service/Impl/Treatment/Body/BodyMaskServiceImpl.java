@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Body.BodyMask;
 import com.thandiswa.repository.Impl.Treatment.Body.BodyMaskRepositoryImpl;
 import com.thandiswa.repository.Treatment.Body.BodyMaskRepository;
 import com.thandiswa.service.Treatment.Body.BodyMaskService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class BodyMaskServiceImpl implements BodyMaskService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static BodyMaskServiceImpl service = null;
     private BodyMaskRepository repository;
 

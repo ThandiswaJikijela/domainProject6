@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Body;
 import com.thandiswa.domain.Treatment.Body.BodyTreatment;
 import com.thandiswa.repository.Treatment.Body.BodyTreatmentRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class BodyTreatmentRepositoryImpl implements BodyTreatmentRepository {
 
@@ -24,9 +22,8 @@ public class BodyTreatmentRepositoryImpl implements BodyTreatmentRepository {
 
     @Override
     public BodyTreatment create(BodyTreatment treatment) {
-        bodyTreatmentMap.put(treatment.getTreatmentType(),treatment);
-        BodyTreatment savedTreatment = bodyTreatmentMap.get(toString());
-        return savedTreatment;
+        this.bodyTreatmentMap.put(treatment.toString(),treatment);
+        return treatment;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class BodyTreatmentRepositoryImpl implements BodyTreatmentRepository {
 
     @Override
     public BodyTreatment update(BodyTreatment treatment) {
-        bodyTreatmentMap.put(treatment.toString(),treatment);
-        BodyTreatment savedTreatment = bodyTreatmentMap.get(toString());
-        return savedTreatment;
+        this.bodyTreatmentMap.replace(treatment.toString(),treatment);
+        return this.bodyTreatmentMap.get(treatment.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class BodyTreatmentRepositoryImpl implements BodyTreatmentRepository {
 
     @Override
     public Set<BodyTreatment> getAll() {
-        return (Set<BodyTreatment>) bodyTreatmentMap;
+        Collection<BodyTreatment> bodyTreatments = this.bodyTreatmentMap.values();
+        Set<BodyTreatment> set = new HashSet<>();
+        set.addAll(bodyTreatments);
+        return set;
     }
 }

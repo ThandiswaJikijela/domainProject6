@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Nail;
 import com.thandiswa.domain.Treatment.Nail.Pedicure;
 import com.thandiswa.repository.Treatment.Nail.PedicureRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class PedicureRepositoryImpl implements PedicureRepository {
 
@@ -24,9 +22,8 @@ public class PedicureRepositoryImpl implements PedicureRepository {
 
     @Override
     public Pedicure create(Pedicure pedicure) {
-        pedicureMap.put(pedicure.getMediHeelPedicure(),pedicure);
-        Pedicure savedPedicure = pedicureMap.get(toString());
-        return savedPedicure;
+        this.pedicureMap.put(pedicure.toString(),pedicure);
+        return pedicure;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class PedicureRepositoryImpl implements PedicureRepository {
 
     @Override
     public Pedicure update(Pedicure pedicure) {
-        pedicureMap.put(pedicure.toString(),pedicure);
-        Pedicure savedPedicure = pedicureMap.get(toString());
-        return savedPedicure;
+        this.pedicureMap.replace(pedicure.toString(),pedicure);
+        return this.pedicureMap.get(pedicure.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class PedicureRepositoryImpl implements PedicureRepository {
 
     @Override
     public Set<Pedicure> getAll() {
-        return (Set<Pedicure>) pedicureMap;
+        Collection<Pedicure> pedicures = this.pedicureMap.values();
+        Set<Pedicure> set = new HashSet<>();
+        set.addAll(pedicures);
+        return set;
     }
 }

@@ -4,12 +4,16 @@ import com.thandiswa.domain.Staff.Employee;
 import com.thandiswa.repository.Impl.Staff.EmployeeRepositoryImpl;
 import com.thandiswa.repository.Staff.EmployeeRepository;
 import com.thandiswa.service.Staff.EmployeeService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static EmployeeServiceImpl service = null;
     private EmployeeRepository repository;
 

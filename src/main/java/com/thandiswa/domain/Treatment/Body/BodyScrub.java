@@ -1,6 +1,9 @@
 package com.thandiswa.domain.Treatment.Body;
 
-public class BodyScrub extends BodyTreatment {
+import java.util.Objects;
+
+public class BodyScrub {
+    private BodyTreatment bodyTreatment = new BodyTreatment();
     private String grittyIngredients;
 
     private BodyScrub()
@@ -34,7 +37,23 @@ public class BodyScrub extends BodyTreatment {
     }
     public String toString(){
         return"BodyScrub{" +
+                "Treatment ID ='" +bodyTreatment.getTreatmentID()+
                 "Gritty Ingredients ='" +grittyIngredients+
                 '}';
     }
+
+    /*@Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        BodyScrub booking = (BodyScrub) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+     */
 }

@@ -8,17 +8,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TreatmentFactoryTest {
-    private Map<String, String> values;
 
     @Test
     public void getTreatment() {
-        values = new HashMap<String, String>();
-        values.put("name","Nail Treatment");
-        values.put("description","Full nail Manicure ");
 
-        String treatmentID = "645N";
-        Treatment treat = TreatmentFactory.getTreatment(values,treatmentID);
+        String description = "Full nail Manicure";
+        String name = "Nail Treatment";
+        Treatment treat = TreatmentFactory.getTreatment(description,name);
         System.out.println(treat);
-        Assert.assertNotNull(treat.getTreatmentID());
+        Assert.assertNotNull(treat.toString());
     }
 }

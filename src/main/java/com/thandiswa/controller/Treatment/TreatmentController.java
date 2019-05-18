@@ -15,7 +15,7 @@ import java.util.Set;
 public class TreatmentController {
     @Autowired
     private TreatmentServiceImpl service;
-    private Map<String, String> values;
+    /*private Map<String, String> values;
 
     @GetMapping("/create/{username}")
     public @ResponseBody
@@ -30,4 +30,6 @@ public class TreatmentController {
     public Set<Treatment> getAll(){
         return service.getAll();
     }
+
+     */
 }

@@ -4,12 +4,16 @@ import com.thandiswa.domain.Cancelation;
 import com.thandiswa.repository.CancelationRepository;
 import com.thandiswa.repository.Impl.CancelationRepositoryImpl;
 import com.thandiswa.service.CancelationService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class CancelationServiceImpl implements CancelationService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static CancelationServiceImpl service = null;
     private CancelationRepository repository;
 

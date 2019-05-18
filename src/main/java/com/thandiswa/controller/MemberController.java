@@ -17,7 +17,7 @@ public class MemberController {
     private MemberServiceImpl service;
     private Map<String, String> values;
 
-    @GetMapping("/create/{address}")
+    /*@GetMapping("/create/{address}")
     public @ResponseBody
     Member create(@PathVariable String address){
         values = new HashMap<String,String>();
@@ -30,4 +30,6 @@ public class MemberController {
     public Set<Member> getAll(){
         return service.getAll();
     }
+
+     */
 }

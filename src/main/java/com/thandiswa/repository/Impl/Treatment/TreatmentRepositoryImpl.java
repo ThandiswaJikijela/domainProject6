@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment;
 import com.thandiswa.domain.Treatment.Treatment;
 import com.thandiswa.repository.Treatment.TreatmentRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class TreatmentRepositoryImpl implements TreatmentRepository {
 
@@ -24,11 +22,8 @@ public class TreatmentRepositoryImpl implements TreatmentRepository {
 
     @Override
     public Treatment create(Treatment treatment) {
-        treatmentMap.put(treatment.getName(),treatment);
-        treatmentMap.put(treatment.getTreatmentID(),treatment);
-        treatmentMap.put(treatment.getDescription(),treatment);
-        Treatment savedTreatment = treatmentMap.get(toString());
-        return savedTreatment;
+        this.treatmentMap.put(treatment.toString(),treatment);
+        return treatment;
     }
 
     @Override
@@ -39,9 +34,8 @@ public class TreatmentRepositoryImpl implements TreatmentRepository {
 
     @Override
     public Treatment update(Treatment treatment) {
-        treatmentMap.put(treatment.toString(),treatment);
-        Treatment savedTreatment = treatmentMap.get(toString());
-        return savedTreatment;
+        this.treatmentMap.replace(treatment.toString(),treatment);
+        return this.treatmentMap.get(treatment.toString());
     }
 
     @Override
@@ -51,6 +45,9 @@ public class TreatmentRepositoryImpl implements TreatmentRepository {
 
     @Override
     public Set<Treatment> getAll() {
-        return (Set<Treatment>) treatmentMap;
+        Collection<Treatment> treatments = this.treatmentMap.values();
+        Set<Treatment> set = new HashSet<>();
+        set.addAll(treatments);
+        return set;
     }
 }

@@ -8,15 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class NailTreatmentFactoryTest {
-    private Map<String, String> values;
 
     @Test
     public void getNailTreatment() {
-        values = new HashMap<String, String>();
-        values.put("nailShape","Steeletoes");
-        values.put("nailSize","4");
+        String nailShape = "Almond Shaped Nails";
         String nailType = "Manicure";
-        NailTreatment nail = NailTreatmentFactory.getNailTreatment(values,nailType);
+        NailTreatment nail = NailTreatmentFactory.getNailTreatment(nailType, nailShape);
         System.out.println(nail);
         Assert.assertNotNull(nail.getNailType());
     }

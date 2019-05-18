@@ -15,7 +15,7 @@ import java.util.Set;
 public class CancelationController {
     @Autowired
     private CancelationServiceImpl service;
-    private Map<String, String> values;
+   /* private Map<String, String> values;
 
     @GetMapping("/create/{paymentMethod}")
     public @ResponseBody
@@ -29,5 +29,5 @@ public class CancelationController {
     @ResponseBody
     public Set<Cancelation> getAll(){
         return service.getAll();
-    }
+    }*/
 }

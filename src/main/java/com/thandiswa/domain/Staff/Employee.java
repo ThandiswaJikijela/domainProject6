@@ -1,6 +1,9 @@
 package com.thandiswa.domain.Staff;
 
-public class Employee extends Staff {
+import java.util.Objects;
+
+public class Employee  {
+    private Staff staff = new Staff();
     private String employeeID, username, password;
 
     protected Employee(){
@@ -24,6 +27,8 @@ public class Employee extends Staff {
     public String getPassword() {
         return password;
     }
+
+    public String getName(){return staff.getName();}
 
     public static class Builder{
         private String employeeID, username, password;
@@ -57,5 +62,18 @@ public class Employee extends Staff {
                 ", Username ='" + username + '\'' +
                 ", Password='" + password + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Employee employee = (Employee) obj;
+        return employeeID.equals(employee.employeeID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(employeeID);
     }
 }

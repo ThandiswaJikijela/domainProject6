@@ -15,17 +15,15 @@ import static org.junit.Assert.*;
 
 public class BodyTreatmentRepositoryImplTest {
     private BodyTreatmentRepository repository;
-    private Map<String, String> values;
 
     @Before
     public void setUp() throws Exception {
         repository = BodyTreatmentRepositoryImpl.getRepository();
-        values = new HashMap<String, String>();
     }
 
     @Test
     public void create() {
-        BodyTreatment body = BodyTreatmentFactory.getBodyTreatment(values,"Body Scrub");
+        BodyTreatment body = BodyTreatmentFactory.getBodyTreatment("Body Scrub");
         repository.create(body);
         System.out.print(body);
         assertEquals("Body Scrub",body.getTreatmentType());

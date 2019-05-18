@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl;
 import com.thandiswa.domain.Spa;
 import com.thandiswa.repository.SpaRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class SpaRepositoryImpl implements SpaRepository {
     private static SpaRepositoryImpl repository = null;
@@ -23,10 +21,8 @@ public class SpaRepositoryImpl implements SpaRepository {
 
     @Override
     public Spa create(Spa spa) {
-        spaTable.put(spa.getSpaName(),spa);
-        spaTable.put(spa.getAddress(),spa);
-        Spa savedSpa = spaTable.get(toString());
-        return savedSpa;
+        this.spaTable.put(spa.toString(),spa);
+        return spa;
     }
 
     @Override
@@ -37,9 +33,8 @@ public class SpaRepositoryImpl implements SpaRepository {
 
     @Override
     public Spa update(Spa spa) {
-        spaTable.put(spa.toString(),spa);
-        Spa savedSpa = spaTable.get(toString());
-        return savedSpa;
+        this.spaTable.replace(spa.toString(),spa);
+        return this.spaTable.get(spa.toString());
     }
 
     @Override
@@ -49,7 +44,10 @@ public class SpaRepositoryImpl implements SpaRepository {
 
     @Override
     public Set<Spa> getAll() {
-        return (Set<Spa>) spaTable;
+        Collection<Spa> spas = this.spaTable.values();
+        Set<Spa> set = new HashSet<>();
+        set.addAll(spas);
+        return set;
     }
 
 }

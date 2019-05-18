@@ -3,19 +3,25 @@ package com.thandiswa.repository.Impl.Booking;
 import com.thandiswa.domain.Booking.Booking;
 import com.thandiswa.repository.Booking.BookingRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class BookingRepositoryImpl implements BookingRepository{
 
     private static BookingRepositoryImpl repository = null;
     private Map<String,Booking> bookingTable;
 
+
     private BookingRepositoryImpl()
     {
-        bookingTable = new HashMap<String,Booking>();
+        bookingTable = new HashMap<>();
     }
+
+    /*private Booking findBooking(final String reservationID){
+        return this.bookingTable.stream()
+                .filter(booking -> booking.getReservationID().trim().equals(reservationID))
+                .findAny()
+                .orElse(null);
+    }*/
 
     public static BookingRepository getRepository(){
         if(repository == null)
@@ -26,27 +32,24 @@ public class BookingRepositoryImpl implements BookingRepository{
 
     @Override
     public Booking create(Booking booking) {
-        bookingTable.put(booking.getReservationID(),booking);
-        Booking booking1 = bookingTable.get(booking.getReservationID());
-        return booking1;
+        this.bookingTable.put(booking.toString(),booking);
+        return booking;
     }
 
     @Override
     public Booking update(Booking booking) {
-        bookingTable.put(booking.getReservationID(),booking);
-        bookingTable.put(booking.getTreatmentType(),booking);
-        Booking booking1 = bookingTable.get(booking.toString());
-        return booking1;
+       this.bookingTable.replace(booking.toString(),booking);
+        return this.bookingTable.get(booking.toString());
     }
 
     @Override
-    public void delete(String reservationID) {
+    public void delete(String toString) {
 
-        bookingTable.remove(toString());
+        this.bookingTable.remove(toString());
     }
 
     @Override
-    public Booking read(String reservationID) {
+    public Booking read(String toString) {
         Booking booking = bookingTable.get(toString());
         return booking;
     }
@@ -54,6 +57,9 @@ public class BookingRepositoryImpl implements BookingRepository{
 
     @Override
     public Set<Booking> getAll() {
-        return (Set<Booking>) bookingTable;
+        Collection<Booking> bookings = this.bookingTable.values();
+        Set<Booking> set = new HashSet<>();
+        set.addAll(bookings);
+        return set;
     }
 }

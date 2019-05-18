@@ -15,7 +15,7 @@ import java.util.Set;
 public class MassageTreatmentController {
     @Autowired
     private MassageTreatmentServiceImpl service;
-    private Map<String, String> values;
+    /*private Map<String, String> values;
 
     @GetMapping("/create/{massageType}")
     public @ResponseBody
@@ -30,4 +30,6 @@ public class MassageTreatmentController {
     public Set<MassageTreatment> getAll(){
         return service.getAll();
     }
+
+     */
 }

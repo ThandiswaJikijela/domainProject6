@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Body;
 import com.thandiswa.domain.Treatment.Body.BodyWraps;
 import com.thandiswa.repository.Treatment.Body.BodyWrapsRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class BodyWrapsRepositoryImpl implements BodyWrapsRepository {
 
@@ -24,9 +22,8 @@ public class BodyWrapsRepositoryImpl implements BodyWrapsRepository {
 
     @Override
     public BodyWraps create(BodyWraps bodyWraps) {
-        bodyWrapsMap.put(bodyWraps.getWrapMaterials(),bodyWraps);
-        BodyWraps savedBodyWraps = bodyWrapsMap.get(toString());
-        return savedBodyWraps;
+        this.bodyWrapsMap.put(bodyWraps.toString(),bodyWraps);
+        return bodyWraps;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class BodyWrapsRepositoryImpl implements BodyWrapsRepository {
 
     @Override
     public BodyWraps update(BodyWraps bodyWraps) {
-        bodyWrapsMap.put(bodyWraps.toString(),bodyWraps);
-        BodyWraps savedBodyWraps = bodyWrapsMap.get(toString());
-        return savedBodyWraps;
+        this.bodyWrapsMap.replace(bodyWraps.toString(),bodyWraps);
+        return this.bodyWrapsMap.get(bodyWraps.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class BodyWrapsRepositoryImpl implements BodyWrapsRepository {
 
     @Override
     public Set<BodyWraps> getAll() {
-        return (Set<BodyWraps>) bodyWrapsMap;
+        Collection<BodyWraps> bodyWraps = this.bodyWrapsMap.values();
+        Set<BodyWraps> set = new HashSet<>();
+        set.addAll(bodyWraps);
+        return set;
     }
 }

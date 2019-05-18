@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Nail;
 import com.thandiswa.domain.Treatment.Nail.NailTreatment;
 import com.thandiswa.repository.Treatment.Nail.NailTreatmentRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class NailTreatmentRepositoryImpl implements NailTreatmentRepository {
 
@@ -24,10 +22,8 @@ public class NailTreatmentRepositoryImpl implements NailTreatmentRepository {
 
     @Override
     public NailTreatment create(NailTreatment treatment) {
-        nailTreatmentTable.put(treatment.getNailType(),treatment);
-        nailTreatmentTable.put(treatment.getNailShape(),treatment);
-        NailTreatment savedTreatment = nailTreatmentTable.get(toString());
-        return savedTreatment;
+        this.nailTreatmentTable.put(treatment.toString(),treatment);
+        return treatment;
     }
 
     @Override
@@ -38,9 +34,8 @@ public class NailTreatmentRepositoryImpl implements NailTreatmentRepository {
 
     @Override
     public NailTreatment update(NailTreatment treatment) {
-        nailTreatmentTable.put(treatment.toString(),treatment);
-        NailTreatment savedTreatment = nailTreatmentTable.get(toString());
-        return savedTreatment;
+       this.nailTreatmentTable.replace(treatment.toString(),treatment);
+       return this.nailTreatmentTable.get(treatment.toString());
     }
 
     @Override
@@ -50,6 +45,9 @@ public class NailTreatmentRepositoryImpl implements NailTreatmentRepository {
 
     @Override
     public Set<NailTreatment> getAll() {
-        return (Set<NailTreatment>) nailTreatmentTable;
+        Collection<NailTreatment> nailTreatments = this.nailTreatmentTable.values();
+        Set<NailTreatment> set = new HashSet<>();
+        set.addAll(nailTreatments);
+        return set;
     }
 }

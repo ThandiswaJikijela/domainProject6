@@ -1,6 +1,7 @@
 package com.thandiswa.domain.Treatment.Facial;
 
-public class AntAgingFacial extends FacialTreatment{
+public class AntAgingFacial {
+    private FacialTreatment facialTreatment = new FacialTreatment();
     private String poreIngredients;
 
     private AntAgingFacial(){
@@ -33,7 +34,23 @@ public class AntAgingFacial extends FacialTreatment{
     }
     public String toString(){
         return"AntiAgingFacial{" +
+                " ='" +facialTreatment.toString()+
                 "Pore Ingredients ='" +poreIngredients+
                 '}';
     }
+
+   /* @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Booking booking = (Booking) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+    */
 }

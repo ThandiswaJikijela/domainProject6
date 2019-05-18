@@ -1,15 +1,17 @@
 package com.thandiswa.domain;
 
+import java.util.Objects;
+
 public class Member {
     private String name, address,phoneNumber;
-    private int id;
+    private String memberId;
 
     private Member(){}
 
     private Member (Builder builder){
         this.name = builder.name;
         this.address = builder.address;
-        this.id = builder.id;
+        this.memberId = builder.memberId;
         this.phoneNumber = builder.phoneNumber;
     }
 
@@ -21,8 +23,8 @@ public class Member {
         return address;
     }
 
-    public int getId() {
-        return id;
+    public String getMemberId() {
+        return memberId;
     }
 
     public String getPhoneNumber() {
@@ -31,7 +33,7 @@ public class Member {
 
     public static class Builder{
         private String name, address, phoneNumber;
-        private int id;
+        private String memberId;
         //private Set<Spa> spa;
 
         public Builder name(String name)
@@ -46,9 +48,9 @@ public class Member {
             return this;
         }
 
-        public Builder id(int id)
+        public Builder id(String memberId)
         {
-            this.id = id;
+            this.memberId = memberId;
             return this;
         }
 
@@ -66,8 +68,21 @@ public class Member {
         return"Member{" +
                 "Name'" +name+ '\'' +
                 ", Address='" + address + '\'' +
-                ", Id='" + id + '\'' +
+                ", Id='" + memberId + '\'' +
                 ", PhoneNumber='" + phoneNumber + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Member member = (Member) obj;
+        return memberId.equals(member.memberId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(memberId);
     }
 }

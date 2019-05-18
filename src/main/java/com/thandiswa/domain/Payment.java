@@ -1,9 +1,11 @@
 package com.thandiswa.domain;
 
+import java.util.Objects;
+
 public class Payment {
     private String creditCardNo;
     private double refund;
-    private String customerID;
+    private String memberID;
 
     private Payment(){}
 
@@ -11,7 +13,7 @@ public class Payment {
     {
         this.creditCardNo = builder.creditCardNo;
         this.refund = builder.refund;
-        this.customerID = builder.customerID;
+        this.memberID = builder.memberID;
     }
 
     public String getCreditCardNo() {
@@ -22,14 +24,14 @@ public class Payment {
         return refund;
     }
 
-    public String getCustomerID() {
-        return customerID;
+    public String getMemberID() {
+        return memberID;
     }
 
     public static class Builder{
         private String creditCardNo;
         private double refund;
-        private String customerID;
+        private String memberID;
 
         public Builder creditCardNo(String creditCardNo){
             this.creditCardNo = creditCardNo;
@@ -41,9 +43,9 @@ public class Payment {
             return this;
         }
 
-        public Builder customerID(String customerID)
+        public Builder memberID(String memberID)
         {
-            this.customerID = customerID;
+            this.memberID = memberID;
             return this;
         }
 
@@ -55,7 +57,20 @@ public class Payment {
         return"Payment{" +
                 "CreditCardNo'" +creditCardNo+ '\'' +
                 ", Refund='" + refund + '\'' +
-                ", customerID'" + customerID  + '\'' +
+                ", memberID'" + memberID  + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Payment payment = (Payment) obj;
+        return memberID.equals(payment.memberID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(memberID);
     }
 }

@@ -14,12 +14,14 @@ public class AromatherapyContoller {
     @Autowired
     private AromatherapyServiceImpl service;
 
-    @GetMapping("/create/{fragrantEssentialOil}")
+   /*@GetMapping("/create/{fragrantEssentialOil}")
     public @ResponseBody
     Aromatherapy create(@PathVariable String fragrantEssentialOil){
         Aromatherapy aromatherapy = AromatherapyFactory.getAromatherapy(fragrantEssentialOil);
         return service.create(aromatherapy);
     }
+
+    */
 
     @GetMapping("/getAll")
     @ResponseBody

@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Facial.AntAgingFacial;
 import com.thandiswa.repository.Impl.Treatment.Facial.AntiAgingFacialRepositoryImpl;
 import com.thandiswa.repository.Treatment.Facial.AntiAgingFacialRepository;
 import com.thandiswa.service.Treatment.Facial.AntiAgingFacialService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class AntiAgingFacialServiceImpl implements AntiAgingFacialService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static AntiAgingFacialServiceImpl service = null;
     private AntiAgingFacialRepository repository;
 

@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Treatment;
 import com.thandiswa.repository.Impl.Treatment.TreatmentRepositoryImpl;
 import com.thandiswa.repository.Treatment.TreatmentRepository;
 import com.thandiswa.service.Treatment.TreatmentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class TreatmentServiceImpl implements TreatmentService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static TreatmentServiceImpl service = null;
     private TreatmentRepository repository;
 

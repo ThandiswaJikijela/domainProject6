@@ -1,6 +1,7 @@
 package com.thandiswa.domain.Treatment.Nail;
 
 public class Pedicure extends NailTreatment {
+    private NailTreatment nailTreatment = new NailTreatment();
     private String mediHeelPedicure;
 
     private Pedicure()
@@ -36,7 +37,23 @@ public class Pedicure extends NailTreatment {
     }
     public String toString() {
         return "Pedicure{" +
+                "Treatment ID'" + nailTreatment.getTreatmentID() +
                 "Medi-Heel Pedicure'" + mediHeelPedicure +
                 '}';
     }
+
+    /*@Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Booking booking = (Booking) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+     */
 }

@@ -15,7 +15,7 @@ import java.util.Set;
 public class NailTreatmentController {
     @Autowired
     private NailTreatmentServiceImpl service;
-    private Map<String, String> values;
+    /*private Map<String, String> values;
 
     @GetMapping("/create/{nailType}")
     public @ResponseBody
@@ -30,4 +30,6 @@ public class NailTreatmentController {
     public Set<NailTreatment> getAll(){
         return service.getAll();
     }
+
+     */
 }

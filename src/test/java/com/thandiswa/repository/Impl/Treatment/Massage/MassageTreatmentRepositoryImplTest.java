@@ -15,17 +15,15 @@ import static org.junit.Assert.*;
 
 public class MassageTreatmentRepositoryImplTest {
     private MassageTreatmentRepository repository;
-    private Map<String, String> values;
 
     @Before
     public void setUp() throws Exception {
         repository = MassageTreatmentRepositoryImpl.getRepository();
-        values = new HashMap<String, String>();
     }
 
     @Test
     public void create() {
-        MassageTreatment treatment = MassageTreatmentFactory.getMassageTreatment(values,"Aromatherapy");
+        MassageTreatment treatment = MassageTreatmentFactory.getMassageTreatment("Aromatherapy");
         repository.create(treatment);
         System.out.print(treatment);
         assertEquals("Aromatherapy",treatment.getMassageType());

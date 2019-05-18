@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Facial.FacialTreatment;
 import com.thandiswa.repository.Impl.Treatment.Facial.FacialTreatmentRepositoryImpl;
 import com.thandiswa.repository.Treatment.Facial.FacialTreatmentRepository;
 import com.thandiswa.service.Treatment.Facial.FacialTreatmentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class FacialTreatmentServiceImpl implements FacialTreatmentService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static FacialTreatmentServiceImpl service = null;
     private FacialTreatmentRepository repository;
 

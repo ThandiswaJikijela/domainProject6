@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Staff;
 import com.thandiswa.domain.Staff.SpaAdmin;
 import com.thandiswa.repository.Staff.SpaAdminRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class SpaAdminRepositoryImpl implements SpaAdminRepository {
 
@@ -24,10 +22,8 @@ public class SpaAdminRepositoryImpl implements SpaAdminRepository {
 
     @Override
     public SpaAdmin create(SpaAdmin spaAdmin) {
-        spaAdminMap.put(spaAdmin.getAdminID(),spaAdmin);
-        spaAdminMap.put(spaAdmin.getPassword(),spaAdmin);
-        SpaAdmin savedSpaAdmin = spaAdminMap.get(toString());
-        return savedSpaAdmin;
+        this.spaAdminMap.put(spaAdmin.toString(),spaAdmin);
+        return this.spaAdminMap.get(spaAdmin.toString());
     }
 
     @Override
@@ -38,9 +34,8 @@ public class SpaAdminRepositoryImpl implements SpaAdminRepository {
 
     @Override
     public SpaAdmin update(SpaAdmin spaAdmin) {
-        spaAdminMap.put(spaAdmin.toString(),spaAdmin);
-        SpaAdmin savedSpaAdmin = spaAdminMap.get(toString());
-        return savedSpaAdmin;
+        this.spaAdminMap.replace(spaAdmin.toString(),spaAdmin);
+        return this.spaAdminMap.get(spaAdmin.toString());
     }
 
     @Override
@@ -50,6 +45,9 @@ public class SpaAdminRepositoryImpl implements SpaAdminRepository {
 
     @Override
     public Set<SpaAdmin> getAll() {
-        return (Set<SpaAdmin>) spaAdminMap;
+        Collection<SpaAdmin> spaAdmins = this.spaAdminMap.values();
+        Set<SpaAdmin> set = new HashSet<>();
+        set.addAll(spaAdmins);
+        return set;
     }
 }

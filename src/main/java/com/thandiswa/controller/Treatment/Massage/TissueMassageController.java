@@ -14,12 +14,14 @@ public class TissueMassageController {
     @Autowired
     private TissueMassageServiceImpl service;
 
-    @GetMapping("/create/{massagePressure}")
+    /*@GetMapping("/create/{massagePressure}")
     public @ResponseBody
     TissueMassage create(@PathVariable String massagePressure){
         TissueMassage tissueMassage = TissueMassageFactory.getTissueMassage(massagePressure);
         return service.create(tissueMassage);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

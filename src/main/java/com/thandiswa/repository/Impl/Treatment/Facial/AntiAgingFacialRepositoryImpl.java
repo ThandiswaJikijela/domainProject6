@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Facial;
 import com.thandiswa.domain.Treatment.Facial.AntAgingFacial;
 import com.thandiswa.repository.Treatment.Facial.AntiAgingFacialRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class AntiAgingFacialRepositoryImpl implements AntiAgingFacialRepository {
 
@@ -24,9 +22,8 @@ public class AntiAgingFacialRepositoryImpl implements AntiAgingFacialRepository 
 
     @Override
     public AntAgingFacial create(AntAgingFacial agingFacial) {
-        agingFacialMap.put(agingFacial.getPoreIngredients(),agingFacial);
-        AntAgingFacial savedAntAgingFacial = agingFacialMap.get(toString());
-        return savedAntAgingFacial;
+        this.agingFacialMap.put(agingFacial.toString(),agingFacial);
+        return agingFacial;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class AntiAgingFacialRepositoryImpl implements AntiAgingFacialRepository 
 
     @Override
     public AntAgingFacial update(AntAgingFacial agingFacial) {
-        agingFacialMap.put(agingFacial.toString(),agingFacial);
-        AntAgingFacial savedAntAgingFacial = agingFacialMap.get(toString());
-        return savedAntAgingFacial;
+        this.agingFacialMap.replace(agingFacial.toString(),agingFacial);
+        return this.agingFacialMap.get(agingFacial.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class AntiAgingFacialRepositoryImpl implements AntiAgingFacialRepository 
 
     @Override
     public Set<AntAgingFacial> getAll() {
-        return (Set<AntAgingFacial>) agingFacialMap;
+        Collection<AntAgingFacial> agingFacials = this.agingFacialMap.values();
+        Set<AntAgingFacial> set = new HashSet<>();
+        set.addAll(agingFacials);
+        return set;
     }
 }

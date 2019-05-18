@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Staff;
 import com.thandiswa.domain.Staff.Staff;
 import com.thandiswa.repository.Staff.StaffRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class StaffRepositoryImpl implements StaffRepository {
 
@@ -24,12 +22,8 @@ public class StaffRepositoryImpl implements StaffRepository {
 
     @Override
     public Staff create(Staff staff) {
-        staffMap.put(staff.getName(),staff);
-        staffMap.put(staff.getEmail(),staff);
-        staffMap.put(staff.getPhone(),staff);
-        staffMap.put(staff.getAddress(),staff);
-        Staff savedStaff = staffMap.get(toString());
-        return savedStaff;
+        this.staffMap.put(staff.toString(),staff);
+        return staff;
     }
 
     @Override
@@ -40,9 +34,8 @@ public class StaffRepositoryImpl implements StaffRepository {
 
     @Override
     public Staff update(Staff staff) {
-        staffMap.put(staff.toString(),staff);
-        Staff savedStaff = staffMap.get(toString());
-        return savedStaff;
+        this.staffMap.replace(staff.toString(),staff);
+        return this.staffMap.get(staff.toString());
     }
 
     @Override
@@ -52,6 +45,9 @@ public class StaffRepositoryImpl implements StaffRepository {
 
     @Override
     public Set<Staff> getAll() {
-        return (Set<Staff>) staffMap;
+        Collection<Staff> staffCollection = this.staffMap.values();
+        Set<Staff> set = new HashSet<>();
+        set.addAll(staffCollection);
+        return set;
     }
 }

@@ -14,12 +14,14 @@ public class BodyMaskController {
     @Autowired
     private BodyMaskServiceImpl service;
 
-    @GetMapping("/create/{maskIngredients}")
+    /*@GetMapping("/create/{maskIngredients}")
     public @ResponseBody
     BodyMask create(@PathVariable String maskIngredients){
         BodyMask employee = BodyMaskFactory.getBodyMask(maskIngredients);
         return service.create(employee);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

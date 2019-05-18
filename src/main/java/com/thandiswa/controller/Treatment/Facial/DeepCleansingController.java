@@ -14,12 +14,14 @@ public class DeepCleansingController {
     @Autowired
     private DeepCleansingServiceImpl service;
 
-    @GetMapping("/create/{oilTypes}")
+    /*@GetMapping("/create/{oilTypes}")
     public @ResponseBody
     DeepCleansing create(@PathVariable String oilTypes){
         DeepCleansing deepCleansing = DeepCleansingFactory.getDeepCleansing(oilTypes);
         return service.create(deepCleansing);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

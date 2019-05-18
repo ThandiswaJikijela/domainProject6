@@ -1,5 +1,10 @@
 package com.thandiswa.domain.Booking;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import java.util.Objects;
+
+@EntityScan
 public class Booking {
     private String reservationID, treatmentType;
     private double totalPrice;
@@ -46,6 +51,14 @@ public class Booking {
             return this;
         }
 
+        public Builder copy(Booking booking){
+            this.reservationID = booking.reservationID;
+            this.treatmentType = booking.treatmentType;
+            this.totalPrice = booking.totalPrice;
+
+            return this;
+        }
+
         public Booking build(){
             return new Booking(this);
         }
@@ -53,9 +66,22 @@ public class Booking {
 
     public String toString(){
         return"Booking{" +
-                "ReservationID'" +reservationID+ '\'' +
-                ", TreatmentType='" + treatmentType + '\'' +
-                ", TotalPrice'" + totalPrice + '\'' +
+                "ReservationID ='" +reservationID+ '\'' +
+                ", TreatmentType ='" + treatmentType + '\'' +
+                ", TotalPrice ='" + totalPrice + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Booking booking = (Booking) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
     }
 }

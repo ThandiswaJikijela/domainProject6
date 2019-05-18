@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Nail.Pedicure;
 import com.thandiswa.repository.Impl.Treatment.Nail.PedicureRepositoryImpl;
 import com.thandiswa.repository.Treatment.Nail.PedicureRepository;
 import com.thandiswa.service.Treatment.Nail.PedicureService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class PedicureServiceImpl implements PedicureService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static PedicureServiceImpl service = null;
     private PedicureRepository repository;
 

@@ -8,15 +8,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FacialTreatmentFactoryTest {
-    private Map<String, String> values;
 
     @Test
     public void getFacialTreatment() {
-        values = new HashMap<String, String>();
-        values.put("skinCareProducts","nourishments");
+        String skinCareProducts = "nourishments";
         String treatmentType = "DeepCleansing and Anti Aging Facial ";
-        FacialTreatment facial = FacialTreatmentFactory.getFacialTreatment(values, treatmentType);
+        FacialTreatment facial = FacialTreatmentFactory.getFacialTreatment(treatmentType, skinCareProducts);
         System.out.println(facial);
-        Assert.assertNotNull(facial.getTreatmentType());
+        Assert.assertNotNull(facial.getTreatmentType(), facial.getSkinCareProducts());
     }
 }

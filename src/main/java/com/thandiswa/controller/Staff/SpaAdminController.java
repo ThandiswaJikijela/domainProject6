@@ -6,6 +6,8 @@ import com.thandiswa.service.Impl.Staff.SpaAdminServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 
@@ -14,11 +16,13 @@ import java.util.Set;
 public class SpaAdminController {
     @Autowired
     private SpaAdminServiceImpl service;
+   /* private Map<String, String> values;
 
-    @GetMapping("/create/{adminID}")
-    public @ResponseBody
-    SpaAdmin create(@PathVariable String adminID, String password){
-        SpaAdmin spaAdmin = SpaAdminFactory.getSpaAdmin(adminID, password);
+    @GetMapping("/create/{password}")
+    @ResponseBody
+    public SpaAdmin create(@PathVariable String password){
+        values = new HashMap<>();
+        SpaAdmin spaAdmin = SpaAdminFactory.getSpaAdmin(values, password);
         return service.create(spaAdmin);
     }
 
@@ -27,4 +31,6 @@ public class SpaAdminController {
     public Set<SpaAdmin> getAll(){
         return service.getAll();
     }
+
+    */
 }

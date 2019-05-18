@@ -1,10 +1,12 @@
 package com.thandiswa.domain.Staff;
 
-public class SpaAdmin extends Staff{
+import java.util.Objects;
+
+public class SpaAdmin {
+    private Staff staff = new Staff();
     private String adminID,password;
 
     protected SpaAdmin(){
-        super();
     }
 
     private SpaAdmin (Builder builder)
@@ -44,8 +46,20 @@ public class SpaAdmin extends Staff{
     }
     public String toString() {
         return "SpaAdmin{" +
-                "Admin ID'" + adminID + '\'' +
-                ", Password='" + password + '\'' +
+                "Admin ID ='" + adminID + '\'' +
+                ", Password ='" + password + '\'' +
                 '}';
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        SpaAdmin spaAdmin = (SpaAdmin) obj;
+        return adminID.equals(spaAdmin.adminID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(adminID);
     }
 }

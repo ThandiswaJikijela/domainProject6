@@ -15,12 +15,14 @@ public class AntiAgingFacialController {
     @Autowired
     private AntiAgingFacialServiceImpl service;
 
-    @GetMapping("/create/{poreIngredients}")
+    /*@GetMapping("/create/{poreIngredients}")
     public @ResponseBody
     AntAgingFacial create(@PathVariable String poreIngredients){
         AntAgingFacial agingFacial = AntiAgingFacialFactory.getAntAgingFacial(poreIngredients);
         return service.create(agingFacial);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

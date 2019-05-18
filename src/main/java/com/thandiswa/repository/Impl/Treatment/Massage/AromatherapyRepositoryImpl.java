@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Massage;
 import com.thandiswa.domain.Treatment.Massage.Aromatherapy;
 import com.thandiswa.repository.Treatment.Massage.AromatherapyRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class AromatherapyRepositoryImpl implements AromatherapyRepository {
 
@@ -24,9 +22,8 @@ public class AromatherapyRepositoryImpl implements AromatherapyRepository {
 
     @Override
     public Aromatherapy create(Aromatherapy aromatherapy) {
-        aromatherapyMap.put(aromatherapy.getFragrantEssentialOil(),aromatherapy);
-        Aromatherapy savedAromatherapy = aromatherapyMap.get(toString());
-        return savedAromatherapy;
+        this.aromatherapyMap.put(aromatherapy.toString(),aromatherapy);
+        return aromatherapy;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class AromatherapyRepositoryImpl implements AromatherapyRepository {
 
     @Override
     public Aromatherapy update(Aromatherapy aromatherapy) {
-        aromatherapyMap.put(aromatherapy.toString(),aromatherapy);
-        Aromatherapy savedAromatherapy = aromatherapyMap.get(toString());
-        return savedAromatherapy;
+        this.aromatherapyMap.replace(aromatherapy.toString(),aromatherapy);
+        return this.aromatherapyMap.get(aromatherapy.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class AromatherapyRepositoryImpl implements AromatherapyRepository {
 
     @Override
     public Set<Aromatherapy> getAll() {
-        return (Set<Aromatherapy>) aromatherapyMap;
+        Collection<Aromatherapy> aromatherapies = this.aromatherapyMap.values();
+        Set<Aromatherapy> set = new HashSet<>();
+        set.addAll(aromatherapies);
+        return set;
     }
 }

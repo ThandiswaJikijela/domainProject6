@@ -1,6 +1,11 @@
 package com.thandiswa.domain.Treatment.Body;
 
-public class BodyMask extends BodyTreatment {
+import com.thandiswa.domain.Booking.Booking;
+
+import java.util.Objects;
+
+public class BodyMask {
+    private BodyTreatment bodyTreatment = new BodyTreatment();
     private String maskIngredients;
 
     private BodyMask()
@@ -34,7 +39,23 @@ public class BodyMask extends BodyTreatment {
     }
     public String toString(){
         return"BodyMask{" +
+                "='" +bodyTreatment.toString()+
                 "maskIngredients='" +maskIngredients+
                 '}';
     }
+
+   /* @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        BodyMask bodyMask = (BodyMask) obj;
+        return bodyTreatment.equals(bodyMask.bodyTreatment);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+    */
 }

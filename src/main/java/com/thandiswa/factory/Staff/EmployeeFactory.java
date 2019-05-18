@@ -1,14 +1,14 @@
 package com.thandiswa.factory.Staff;
 
 import com.thandiswa.domain.Staff.Employee;
+import com.thandiswa.util.IDs;
 
-import java.util.Map;
 
 public class EmployeeFactory {
-    public static Employee getEmployee(Map<String, String> values, String username) {
+    public static Employee getEmployee(String username, String password) {
         return new Employee.Builder().username(username)
-                .password(values.get("password"))
-                .employeeID(values.get("employeeID"))
+                .password(password)
+                .employeeID(IDs.generateId())
                 .build();
     }
 }

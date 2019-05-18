@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Massage;
 import com.thandiswa.domain.Treatment.Massage.MassageTreatment;
 import com.thandiswa.repository.Treatment.Massage.MassageTreatmentRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class MassageTreatmentRepositoryImpl implements MassageTreatmentRepository {
 
@@ -24,9 +22,8 @@ public class MassageTreatmentRepositoryImpl implements MassageTreatmentRepositor
 
     @Override
     public MassageTreatment create(MassageTreatment treatment) {
-        massageTreatmentTable.put(treatment.getMassageType(),treatment);
-        MassageTreatment savedTreatment = massageTreatmentTable.get(toString());
-        return savedTreatment;
+        this.massageTreatmentTable.put(treatment.toString(),treatment);
+        return treatment;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class MassageTreatmentRepositoryImpl implements MassageTreatmentRepositor
 
     @Override
     public MassageTreatment update(MassageTreatment treatment) {
-        massageTreatmentTable.put(treatment.toString(),treatment);
-        MassageTreatment savedTreatment = massageTreatmentTable.get(toString());
-        return savedTreatment;
+        this.massageTreatmentTable.replace(treatment.toString(),treatment);
+        return this.massageTreatmentTable.get(treatment.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class MassageTreatmentRepositoryImpl implements MassageTreatmentRepositor
 
     @Override
     public Set<MassageTreatment> getAll() {
-        return (Set<MassageTreatment>) massageTreatmentTable;
+        Collection<MassageTreatment> massageTreatments = this.massageTreatmentTable.values();
+        Set<MassageTreatment> set = new HashSet<>();
+        set.addAll(massageTreatments);
+        return set;
     }
 }

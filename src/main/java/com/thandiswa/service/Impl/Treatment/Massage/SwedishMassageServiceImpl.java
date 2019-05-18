@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Massage.SwedishMassage;
 import com.thandiswa.repository.Impl.Treatment.Massage.SwedishMassageRepositoryImpl;
 import com.thandiswa.repository.Treatment.Massage.SwedishMassageRepository;
 import com.thandiswa.service.Treatment.Massage.SwedishMassageService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class SwedishMassageServiceImpl implements SwedishMassageService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static SwedishMassageServiceImpl service = null;
     private SwedishMassageRepository repository;
 

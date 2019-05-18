@@ -1,6 +1,7 @@
 package com.thandiswa.domain.Treatment.Massage;
 
-public class Aromatherapy extends MassageTreatment{
+public class Aromatherapy {
+    private MassageTreatment massageTreatment = new MassageTreatment();
     private String fragrantEssentialOil;
 
     private Aromatherapy()
@@ -34,7 +35,23 @@ public class Aromatherapy extends MassageTreatment{
     }
     public String toString(){
         return"Aromatherapy{" +
+                " ='" +massageTreatment.toString()+
                 "Fragrant Essential Oil ='" +fragrantEssentialOil+
                 '}';
     }
+
+    /*@Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Booking booking = (Booking) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+     */
 }

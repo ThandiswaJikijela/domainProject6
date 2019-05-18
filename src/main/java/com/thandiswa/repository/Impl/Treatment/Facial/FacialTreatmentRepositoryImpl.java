@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Facial;
 import com.thandiswa.domain.Treatment.Facial.FacialTreatment;
 import com.thandiswa.repository.Treatment.Facial.FacialTreatmentRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class FacialTreatmentRepositoryImpl implements FacialTreatmentRepository {
 
@@ -24,9 +22,8 @@ public class FacialTreatmentRepositoryImpl implements FacialTreatmentRepository 
 
     @Override
     public FacialTreatment create(FacialTreatment treatment) {
-        facialTreatmentMap.put(treatment.getSkinCareProducts(),treatment);
-        FacialTreatment savedTreatment = facialTreatmentMap.get(toString());
-        return savedTreatment;
+        this.facialTreatmentMap.put(treatment.toString(),treatment);
+        return treatment;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class FacialTreatmentRepositoryImpl implements FacialTreatmentRepository 
 
     @Override
     public FacialTreatment update(FacialTreatment treatment) {
-        facialTreatmentMap.put(treatment.toString(),treatment);
-        FacialTreatment savedTreatment = facialTreatmentMap.get(toString());
-        return savedTreatment;
+        this.facialTreatmentMap.replace(treatment.toString(),treatment);
+        return this.facialTreatmentMap.get(treatment.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class FacialTreatmentRepositoryImpl implements FacialTreatmentRepository 
 
     @Override
     public Set<FacialTreatment> getAll() {
-        return (Set<FacialTreatment>) facialTreatmentMap;
+        Collection<FacialTreatment> facialTreatments = this.facialTreatmentMap.values();
+        Set<FacialTreatment> set = new HashSet<>();
+        set.addAll(facialTreatments);
+        return set;
     }
 }

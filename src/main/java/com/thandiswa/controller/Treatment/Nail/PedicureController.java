@@ -14,12 +14,14 @@ public class PedicureController {
     @Autowired
     private PedicureServiceImpl service;
 
-    @GetMapping("/create/{mediHeelPedicure}")
+    /*@GetMapping("/create/{mediHeelPedicure}")
     public @ResponseBody
     Pedicure create(@PathVariable String mediHeelPedicure){
         Pedicure pedicure = PedicureFactory.getPedicure(mediHeelPedicure);
         return service.create(pedicure);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

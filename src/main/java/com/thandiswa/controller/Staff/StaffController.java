@@ -15,7 +15,7 @@ import java.util.Set;
 public class StaffController {
     @Autowired
     private StaffServiceImpl service;
-    private Map<String, String> values;
+    /*private Map<String, String> values;
 
     @GetMapping("/create/{email}")
     public @ResponseBody
@@ -30,4 +30,6 @@ public class StaffController {
     public Set<Staff> getAll(){
         return service.getAll();
     }
+
+     */
 }

@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Body.BodyTreatment;
 import com.thandiswa.repository.Impl.Treatment.Body.BodyTreatmentRepositoryImpl;
 import com.thandiswa.repository.Treatment.Body.BodyTreatmentRepository;
 import com.thandiswa.service.Treatment.Body.BodyTreatmentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class BodyTreatmentServiceImpl implements BodyTreatmentService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static BodyTreatmentServiceImpl service = null;
     private BodyTreatmentRepository repository;
 

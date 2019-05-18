@@ -20,14 +20,11 @@ public class NailTreatmentRepositoryImplTest {
     @Before
     public void setUp() throws Exception {
         repository = NailTreatmentRepositoryImpl.getRepository();
-        values = new HashMap<String, String>();
-        values.put("nailShape","Steeletoes");
-        values.put("nailSize","4");
     }
 
     @Test
     public void create() {
-        NailTreatment treatment = NailTreatmentFactory.getNailTreatment(values,"Manicure");
+        NailTreatment treatment = NailTreatmentFactory.getNailTreatment("Manicure","Round nails");
         repository.create(treatment);
         System.out.print(treatment);
         assertEquals("Manicure",treatment.getNailType());

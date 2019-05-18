@@ -14,12 +14,14 @@ public class SwedishMassageController {
     @Autowired
     private SwedishMassageServiceImpl service;
 
-    @GetMapping("/create/{carrierOil}")
+    /*@GetMapping("/create/{carrierOil}")
     public @ResponseBody
     SwedishMassage create(@PathVariable String carrierOil){
         SwedishMassage swedishMassage = SwedishMassageFactory.getSwedishMassage(carrierOil);
         return service.create(swedishMassage);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

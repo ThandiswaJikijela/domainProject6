@@ -8,12 +8,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BodyTreatmentFactoryTest {
-    private Map<String, String> values;
     @Test
     public void getBodyTreatment() {
-        values = new HashMap<String, String>();
         String treatmentType = "Body Mask";
-        BodyTreatment body = BodyTreatmentFactory.getBodyTreatment(values,treatmentType);
+        BodyTreatment body = BodyTreatmentFactory.getBodyTreatment(treatmentType);
         System.out.println(body);
         Assert.assertNotNull(body.toString());
     }

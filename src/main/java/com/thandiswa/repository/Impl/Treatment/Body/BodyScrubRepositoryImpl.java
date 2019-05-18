@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Body;
 import com.thandiswa.domain.Treatment.Body.BodyScrub;
 import com.thandiswa.repository.Treatment.Body.BodyScrubRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class BodyScrubRepositoryImpl implements BodyScrubRepository {
 
@@ -24,9 +22,8 @@ public class BodyScrubRepositoryImpl implements BodyScrubRepository {
 
     @Override
     public BodyScrub create(BodyScrub bodyScrub) {
-        scrubMap.put(bodyScrub.getGrittyIngredients(),bodyScrub);
-        BodyScrub savedBodyScrub = scrubMap.get(toString());
-        return savedBodyScrub;
+        this.scrubMap.put(bodyScrub.toString(),bodyScrub);
+        return bodyScrub;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class BodyScrubRepositoryImpl implements BodyScrubRepository {
 
     @Override
     public BodyScrub update(BodyScrub bodyScrub) {
-        scrubMap.put(bodyScrub.toString(),bodyScrub);
-        BodyScrub savedBodyScrub = scrubMap.get(toString());
-        return savedBodyScrub;
+        this.scrubMap.replace(bodyScrub.toString(),bodyScrub);
+        return this.scrubMap.get(bodyScrub.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class BodyScrubRepositoryImpl implements BodyScrubRepository {
 
     @Override
     public Set<BodyScrub> getAll() {
-        return (Set<BodyScrub>) scrubMap;
+        Collection<BodyScrub> bodyScrubs = this.scrubMap.values();
+        Set<BodyScrub> set = new HashSet<>();
+        set.addAll(bodyScrubs);
+        return set;
     }
 }

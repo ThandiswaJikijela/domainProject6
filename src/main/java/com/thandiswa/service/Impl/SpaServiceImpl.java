@@ -4,12 +4,16 @@ import com.thandiswa.domain.Spa;
 import com.thandiswa.repository.Impl.SpaRepositoryImpl;
 import com.thandiswa.repository.SpaRepository;
 import com.thandiswa.service.SpaService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class SpaServiceImpl implements SpaService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static SpaServiceImpl service = null;
     private SpaRepository repository;
 

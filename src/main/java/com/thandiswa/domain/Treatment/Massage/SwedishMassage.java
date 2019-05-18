@@ -1,6 +1,7 @@
 package com.thandiswa.domain.Treatment.Massage;
 
-public class SwedishMassage extends MassageTreatment{
+public class SwedishMassage{
+    private MassageTreatment massageTreatment = new MassageTreatment();
     private String carrierOil;
 
     private SwedishMassage()
@@ -34,7 +35,23 @@ public class SwedishMassage extends MassageTreatment{
     }
     public String toString(){
         return"SwedishMassage{" +
+                " ='" +massageTreatment.toString()+
                 "Carrier Oils ='" +carrierOil+
                 '}';
     }
+
+    /*@Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Booking booking = (Booking) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+     */
 }

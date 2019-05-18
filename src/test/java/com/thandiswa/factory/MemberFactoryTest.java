@@ -8,18 +8,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MemberFactoryTest {
-    private Map<String, String> values;
 
     @Test
     public void getMember() {
-        values = new HashMap<String,String>();
-        values.put("name","King");
-        values.put("id","875756582657");
-        values.put("phoneNumber","087564264");
-
+        String name = "King";
+        String phoneNumber = "087564264";
         String address = "Woodstock";
-        Member m = MemberFactory.getMember(values,address);
+        Member m = MemberFactory.getMember(address,name,phoneNumber);
         System.out.print(m);
-        Assert.assertNotNull(m.getAddress());
+        Assert.assertNotNull(m.toString());
     }
 }

@@ -15,7 +15,7 @@ import java.util.Set;
 public class SpaController {
     @Autowired
     private SpaServiceImpl service;
-    private Map<String, String> values;
+    /*private Map<String, String> values;
 
     @GetMapping("/create/{spaName}")
     public @ResponseBody
@@ -30,4 +30,6 @@ public class SpaController {
     public Set<Spa> getAll(){
         return service.getAll();
     }
+
+     */
 }

@@ -1,15 +1,22 @@
 package com.thandiswa.domain.Staff;
 
+import java.util.Objects;
+
 public class Staff {
-    private String name, email, phone, address;
+    private String staffID, name, email, phone, address;
 
     protected Staff(){}
 
     private Staff(Builder builder){
+        this.staffID = builder.staffID;
         this.name = builder.name;
         this.email = builder.email;
         this.phone = builder.phone;
         this.address = builder.address;
+    }
+
+    public String getStaffID() {
+        return staffID;
     }
 
     public String getName() {
@@ -29,7 +36,13 @@ public class Staff {
     }
 
     public static class Builder{
-        private String name, email, phone, address;
+        private String staffID, name, email, phone, address;
+
+        public Builder staffID(String staffID)
+        {
+            this.staffID = staffID;
+            return this;
+        }
 
         public Builder name(String name)
         {
@@ -61,10 +74,24 @@ public class Staff {
     }
     public String toString(){
         return"Staff{" +
-                "Name'" +name+ '\'' +
+                "Staff ID ='"+staffID+ '\'' +
+                "Name ='" +name+ '\'' +
                 ", Email ='" + email + '\'' +
                 ", Phone Number ='" + phone + '\'' +
                 ", Address='" + address + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Staff staffID = (Staff) obj;
+        return staffID.equals(staffID.staffID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(staffID);
     }
 }

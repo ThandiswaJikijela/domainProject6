@@ -15,7 +15,7 @@ import java.util.Set;
 public class FacialTreatmentController {
     @Autowired
     private FacialTreatmentServiceImpl service;
-    private Map<String, String> values;
+    /*private Map<String, String> values;
 
     @GetMapping("/create/{treatmentType}")
     public @ResponseBody
@@ -29,5 +29,6 @@ public class FacialTreatmentController {
     @ResponseBody
     public Set<FacialTreatment> getAll(){
         return service.getAll();
-    }
+    }*/
+
 }

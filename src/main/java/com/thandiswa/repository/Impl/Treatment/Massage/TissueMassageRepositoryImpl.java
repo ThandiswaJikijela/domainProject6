@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Massage;
 import com.thandiswa.domain.Treatment.Massage.TissueMassage;
 import com.thandiswa.repository.Treatment.Massage.TissueMassageRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class TissueMassageRepositoryImpl implements TissueMassageRepository {
 
@@ -24,9 +22,8 @@ public class TissueMassageRepositoryImpl implements TissueMassageRepository {
 
     @Override
     public TissueMassage create(TissueMassage tissueMassage) {
-        tissueMassageMap.put(tissueMassage.getMassagePressure(),tissueMassage);
-        TissueMassage savedTissueMassage = tissueMassageMap.get(toString());
-        return savedTissueMassage;
+        this.tissueMassageMap.put(tissueMassage.toString(),tissueMassage);
+        return tissueMassage;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class TissueMassageRepositoryImpl implements TissueMassageRepository {
 
     @Override
     public TissueMassage update(TissueMassage tissueMassage) {
-        tissueMassageMap.put(tissueMassage.toString(),tissueMassage);
-        TissueMassage savedTissueMassage = tissueMassageMap.get(toString());
-        return savedTissueMassage;
+        this.tissueMassageMap.replace(tissueMassage.toString(),tissueMassage);
+        return this.tissueMassageMap.get(tissueMassage.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class TissueMassageRepositoryImpl implements TissueMassageRepository {
 
     @Override
     public Set<TissueMassage> getAll() {
-        return (Set<TissueMassage>) tissueMassageMap;
+        Collection<TissueMassage> tissueMassages = this.tissueMassageMap.values();
+        Set<TissueMassage> set = new HashSet<>();
+        set.addAll(tissueMassages);
+        return set;
     }
 }

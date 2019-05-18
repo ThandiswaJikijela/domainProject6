@@ -1,5 +1,7 @@
 package com.thandiswa.domain.Treatment;
 
+import java.util.Objects;
+
 public class Treatment {
     private String name, treatmentID, description;
 
@@ -58,4 +60,18 @@ public class Treatment {
                     "Description = '" + description + '\'' +
                     '}';
         }
+
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Treatment treatment = (Treatment) obj;
+        return treatmentID.equals(treatment.treatmentID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(treatmentID);
+    }
 }

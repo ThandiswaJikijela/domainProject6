@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl;
 import com.thandiswa.domain.Payment;
 import com.thandiswa.repository.PaymentRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class PaymentRepositoryImpl implements PaymentRepository {
 
@@ -24,11 +22,8 @@ public class PaymentRepositoryImpl implements PaymentRepository {
 
     @Override
     public Payment create(Payment payment) {
-        paymentMap.put(payment.getCreditCardNo(),payment);
-        paymentMap.put(payment.getCustomerID(),payment);
-        //paymentMap.put(payment.toString(),payment);
-        Payment savedPayment = paymentMap.get(toString());
-        return savedPayment;
+        this.paymentMap.put(payment.toString(),payment);
+        return payment;
     }
 
     @Override
@@ -39,9 +34,8 @@ public class PaymentRepositoryImpl implements PaymentRepository {
 
     @Override
     public Payment update(Payment payment) {
-        paymentMap.put(payment.toString(),payment);
-        Payment savedPayment = paymentMap.get(toString());
-        return savedPayment;
+        this.paymentMap.replace(payment.toString(),payment);
+        return this.paymentMap.get(payment.toString());
     }
 
     @Override
@@ -51,6 +45,10 @@ public class PaymentRepositoryImpl implements PaymentRepository {
 
     @Override
     public Set<Payment> getAll() {
-        return (Set<Payment>) paymentMap;
+        Collection<Payment> payments = this.paymentMap.values();
+        Set<Payment> set = new HashSet<>();
+        set.addAll(payments);
+        return set;
+
     }
 }

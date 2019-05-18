@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Body;
 import com.thandiswa.domain.Treatment.Body.BodyMask;
 import com.thandiswa.repository.Treatment.Body.BodyMaskRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class BodyMaskRepositoryImpl implements BodyMaskRepository {
 
@@ -24,9 +22,8 @@ public class BodyMaskRepositoryImpl implements BodyMaskRepository {
 
     @Override
     public BodyMask create(BodyMask bodyMask) {
-        bodyMaskMap.put(bodyMask.getMaskIngredients(),bodyMask);
-        BodyMask savedBodyMask= bodyMaskMap.get(toString());
-        return savedBodyMask;
+        this.bodyMaskMap.put(bodyMask.toString(),bodyMask);
+        return bodyMask;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class BodyMaskRepositoryImpl implements BodyMaskRepository {
 
     @Override
     public BodyMask update(BodyMask bodyMask) {
-        bodyMaskMap.put(bodyMask.toString(),bodyMask);
-        BodyMask savedBodyMask = bodyMaskMap.get(toString());
-        return savedBodyMask;
+        this.bodyMaskMap.replace(bodyMask.toString(),bodyMask);
+        return this.bodyMaskMap.get(bodyMask.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class BodyMaskRepositoryImpl implements BodyMaskRepository {
 
     @Override
     public Set<BodyMask> getAll() {
-        return (Set<BodyMask>) bodyMaskMap;
+        Collection<BodyMask> bodyMasks = this.bodyMaskMap.values();
+        Set<BodyMask> set = new HashSet<>();
+        set.addAll(bodyMasks);
+        return set;
     }
 }

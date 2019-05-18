@@ -15,17 +15,15 @@ import static org.junit.Assert.*;
 
 public class CancelationRepositoryImplTest {
     private CancelationRepository repository;
-    private Map<String, String> values;
 
     @Before
     public void setUp() throws Exception {
         repository = CancelationRepositoryImpl.getRepository();
-        values = new HashMap<String, String>();
     }
 
     @Test
     public void create() {
-        Cancelation cancelation = CancelationFactory.getCancelation(values,"Credit Card");
+        Cancelation cancelation = CancelationFactory.getCancelation("Credit Card");
         repository.create(cancelation);
         System.out.print(cancelation);
         assertEquals("Credit Card",cancelation.getPaymentMethod());

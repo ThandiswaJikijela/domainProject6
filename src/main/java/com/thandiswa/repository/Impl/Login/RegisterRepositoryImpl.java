@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Login;
 import com.thandiswa.domain.LogIn.Register;
 import com.thandiswa.repository.Login.RegisterRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class RegisterRepositoryImpl implements RegisterRepository {
 
@@ -13,7 +11,7 @@ public class RegisterRepositoryImpl implements RegisterRepository {
     private Map<String, Register> registerTable;
 
     private RegisterRepositoryImpl(){
-        this.registerTable = new HashMap<String, Register>();
+        this.registerTable = new HashMap<>();
     }
 
     public static RegisterRepositoryImpl getRepository()
@@ -24,13 +22,8 @@ public class RegisterRepositoryImpl implements RegisterRepository {
 
     @Override
     public Register create(Register register) {
-        registerTable.put(register.getName(),register);
-        registerTable.put(register.getAddress(),register);
-        registerTable.put(register.getEmail(),register);
-        registerTable.put(register.getUsername(),register);
-        registerTable.put(register.getPassword(),register);
-        Register savedRegister = registerTable.get(toString());
-        return savedRegister;
+       this.registerTable.put(register.toString(),register);
+       return register;
     }
 
     @Override
@@ -41,9 +34,8 @@ public class RegisterRepositoryImpl implements RegisterRepository {
 
     @Override
     public Register update(Register register) {
-        registerTable.put(register.toString(),register);
-        Register savedRegister = registerTable.get(toString());
-        return savedRegister;
+        this.registerTable.replace(register.toString(),register);
+        return this.registerTable.get(register.toString());
     }
 
     @Override
@@ -53,6 +45,9 @@ public class RegisterRepositoryImpl implements RegisterRepository {
 
     @Override
     public Set<Register> getAll() {
-        return (Set<Register>) registerTable;
+        Collection<Register> registers = this.registerTable.values();
+        Set<Register> set = new HashSet<>();
+        set.addAll(registers);
+        return set;
     }
 }

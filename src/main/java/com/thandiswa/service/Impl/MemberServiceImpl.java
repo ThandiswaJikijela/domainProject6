@@ -4,12 +4,16 @@ import com.thandiswa.domain.Member;
 import com.thandiswa.repository.Impl.MemberRepositoryImpl;
 import com.thandiswa.repository.MemberRepository;
 import com.thandiswa.service.MemberService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class MemberServiceImpl implements MemberService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static MemberServiceImpl service = null;
     private MemberRepository repository;
 

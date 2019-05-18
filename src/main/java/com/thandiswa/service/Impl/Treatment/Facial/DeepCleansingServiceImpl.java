@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Facial.DeepCleansing;
 import com.thandiswa.repository.Impl.Treatment.Facial.DeepCleansingRepositoryImpl;
 import com.thandiswa.repository.Treatment.Facial.DeepCleansingRepository;
 import com.thandiswa.service.Treatment.Facial.DeepCleansingService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class DeepCleansingServiceImpl implements DeepCleansingService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static DeepCleansingServiceImpl service = null;
     private DeepCleansingRepository repository;
 

@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Massage;
 import com.thandiswa.domain.Treatment.Massage.SwedishMassage;
 import com.thandiswa.repository.Treatment.Massage.SwedishMassageRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class SwedishMassageRepositoryImpl implements SwedishMassageRepository {
 
@@ -24,9 +22,8 @@ public class SwedishMassageRepositoryImpl implements SwedishMassageRepository {
 
     @Override
     public SwedishMassage create(SwedishMassage swedishMassage) {
-        massageMap.put(swedishMassage.getCarrierOil(),swedishMassage);
-        SwedishMassage savedSwedishMassage = massageMap.get(toString());
-        return savedSwedishMassage;
+        this.massageMap.put(swedishMassage.toString(),swedishMassage);
+        return swedishMassage;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class SwedishMassageRepositoryImpl implements SwedishMassageRepository {
 
     @Override
     public SwedishMassage update(SwedishMassage swedishMassage) {
-        massageMap.put(swedishMassage.toString(),swedishMassage);
-        SwedishMassage savedSwedishMassage = massageMap.get(toString());
-        return savedSwedishMassage;
+        this.massageMap.replace(swedishMassage.toString(),swedishMassage);
+        return this.massageMap.get(swedishMassage.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class SwedishMassageRepositoryImpl implements SwedishMassageRepository {
 
     @Override
     public Set<SwedishMassage> getAll() {
-        return (Set<SwedishMassage>) massageMap;
+        Collection<SwedishMassage> swedishMassages = this.massageMap.values();
+        Set<SwedishMassage> set = new HashSet<>();
+        set.addAll(swedishMassages);
+        return set;
     }
 }

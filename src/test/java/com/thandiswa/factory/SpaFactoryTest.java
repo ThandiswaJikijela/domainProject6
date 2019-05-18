@@ -8,14 +8,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SpaFactoryTest {
-    private Map<String, String> values;
     @Test
     public void getSpa() {
-        values = new HashMap<String,String>();
+        String address = "Gugulethu";
         String spaName = "Beauty Spa";
-        Spa s = SpaFactory.getSpa(values,spaName);
+        Spa s = SpaFactory.getSpa(address, spaName);
         System.out.println(s);
-        Assert.assertNotNull(s.getSpaName());
+        Assert.assertNotNull(s.toString());
 
     }
 }

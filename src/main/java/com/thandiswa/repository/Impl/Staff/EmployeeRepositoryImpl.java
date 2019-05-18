@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Staff;
 import com.thandiswa.domain.Staff.Employee;
 import com.thandiswa.repository.Staff.EmployeeRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
@@ -24,24 +22,19 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 
     @Override
     public Employee create(Employee employee) {
-         employeeMap.put(employee.getEmployeeID(),employee);
-         employeeMap.put(employee.getUsername(),employee);
-         employeeMap.put(employee.getPassword(),employee);
-         Employee savedEmployee = employeeMap.get(toString());
-        return savedEmployee;
+         this.employeeMap.put(employee.toString(),employee);
+         return employee;
     }
 
     @Override
     public Employee read(String e) {
-        Employee employee = employeeMap.get(toString());
-        return employee;
+        return this.employeeMap.get(toString());
     }
 
     @Override
     public Employee update(Employee employee) {
-        employeeMap.put(employee.toString(),employee);
-        Employee savedEmployee = employeeMap.get(toString());
-        return savedEmployee;
+        this.employeeMap.replace(employee.toString(),employee);
+        return this.employeeMap.get(employee.toString());
     }
 
     @Override
@@ -51,6 +44,9 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
 
     @Override
     public Set<Employee> getAll() {
-        return (Set<Employee>) employeeMap;
+        Collection<Employee> employees = this.employeeMap.values();
+        Set<Employee> set = new HashSet<>();
+        set.addAll(employees);
+        return set;
     }
 }

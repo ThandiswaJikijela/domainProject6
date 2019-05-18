@@ -1,14 +1,15 @@
 package com.thandiswa.factory.Treatment;
 
 import com.thandiswa.domain.Treatment.Treatment;
+import com.thandiswa.util.IDs;
 
 import java.util.Map;
 
 public class TreatmentFactory {
-    public static Treatment getTreatment (Map<String, String> values,String treatmentID) {
-        return new Treatment.Builder().name(values.get("name"))
-                .description(values.get("description"))
-                .treatmentID(treatmentID)
+    public static Treatment getTreatment (String description, String name) {
+        return new Treatment.Builder().name(name)
+                .description(description)
+                .treatmentID(IDs.generateId())
                 .build();
     }
 }

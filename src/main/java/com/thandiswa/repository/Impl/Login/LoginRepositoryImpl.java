@@ -2,17 +2,17 @@ package com.thandiswa.repository.Impl.Login;
 
 import com.thandiswa.domain.LogIn.LogIn;
 import com.thandiswa.repository.Login.LoginRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
+@Repository
 public class LoginRepositoryImpl implements LoginRepository {
     private static LoginRepositoryImpl repository = null;
     private Map<String, LogIn> loginTable;
 
     private LoginRepositoryImpl(){
-        this.loginTable = new HashMap<String, LogIn>();
+        this.loginTable = new HashMap<>();
     }
 
     public static LoginRepositoryImpl getRepository()
@@ -23,10 +23,8 @@ public class LoginRepositoryImpl implements LoginRepository {
 
     @Override
     public LogIn create(LogIn logIn) {
-        loginTable.put(logIn.getUsername(),logIn);
-        loginTable.put(logIn.getPassword(),logIn);
-        LogIn savedLogin = loginTable.get(toString());
-        return savedLogin;
+        this.loginTable.put(logIn.toString(),logIn);
+        return logIn;
     }
 
     @Override
@@ -37,18 +35,21 @@ public class LoginRepositoryImpl implements LoginRepository {
 
     @Override
     public LogIn update(LogIn logIn) {
-        loginTable.put(logIn.toString(),logIn);
-        LogIn saveLogin = loginTable.get(toString());
-        return saveLogin;
+        this.loginTable.replace(logIn.toString(),logIn);
+        return this.loginTable.get(logIn.toString());
     }
 
     @Override
     public void delete(String l) {
+
         loginTable.remove(toString());
     }
 
     @Override
     public Set<LogIn> getAll() {
-        return (Set<LogIn>) loginTable;
+        Collection<LogIn> logIns = this.loginTable.values();
+        Set<LogIn> set = new HashSet<>();
+        set.addAll(logIns);
+        return set;
     }
 }

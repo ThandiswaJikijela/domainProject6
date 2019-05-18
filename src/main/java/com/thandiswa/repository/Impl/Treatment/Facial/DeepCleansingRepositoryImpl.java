@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl.Treatment.Facial;
 import com.thandiswa.domain.Treatment.Facial.DeepCleansing;
 import com.thandiswa.repository.Treatment.Facial.DeepCleansingRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class DeepCleansingRepositoryImpl implements DeepCleansingRepository {
 
@@ -24,10 +22,8 @@ public class DeepCleansingRepositoryImpl implements DeepCleansingRepository {
 
     @Override
     public DeepCleansing create(DeepCleansing deepCleansing) {
-        deepCleansingMap.put(deepCleansing.getFacialID(),deepCleansing);
-        deepCleansingMap.put(deepCleansing.getOilTypes(),deepCleansing);
-        DeepCleansing savedDeepCleansing = deepCleansingMap.get(toString());
-        return savedDeepCleansing;
+        this.deepCleansingMap.put(deepCleansing.toString(),deepCleansing);
+        return deepCleansing;
     }
 
     @Override
@@ -38,9 +34,8 @@ public class DeepCleansingRepositoryImpl implements DeepCleansingRepository {
 
     @Override
     public DeepCleansing update(DeepCleansing deepCleansing) {
-        deepCleansingMap.put(deepCleansing.toString(),deepCleansing);
-        DeepCleansing savedDeepCleansing = deepCleansingMap.get(toString());
-        return savedDeepCleansing;
+        this.deepCleansingMap.replace(deepCleansing.toString(),deepCleansing);
+        return this.deepCleansingMap.get(deepCleansing.toString());
     }
 
     @Override
@@ -50,6 +45,9 @@ public class DeepCleansingRepositoryImpl implements DeepCleansingRepository {
 
     @Override
     public Set<DeepCleansing> getAll() {
-        return (Set<DeepCleansing>) deepCleansingMap;
+        Collection<DeepCleansing> deepCleansings = this.deepCleansingMap.values();
+        Set<DeepCleansing> set = new HashSet<>();
+        set.addAll(deepCleansings);
+        return set;
     }
 }

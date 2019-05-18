@@ -14,12 +14,14 @@ public class BodyScrubController {
     @Autowired
     private BodyScrubServiceImpl service;
 
-    @GetMapping("/create/{grittyIngredients}")
+    /*@GetMapping("/create/{grittyIngredients}")
     public @ResponseBody
     BodyScrub create(@PathVariable String grittyIngredients){
         BodyScrub bodyScrub = BodyScrubFactory.getBodyScrub(grittyIngredients);
         return service.create(bodyScrub);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

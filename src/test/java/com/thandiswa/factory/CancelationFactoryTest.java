@@ -8,14 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CancelationFactoryTest {
-    private Map<String, String> values;
 
     @Test
     public void getCancelation() {
-        values = new HashMap<String, String>();
-        //Date bookedDate = 94-11-08;
+
         String paymentMethod = "CreditCard";
-        Cancelation cancel = CancelationFactory.getCancelation(values,paymentMethod);
+        Cancelation cancel = CancelationFactory.getCancelation(paymentMethod);
         System.out.println(cancel);
         Assert.assertNotNull(cancel.getPaymentMethod());
     }

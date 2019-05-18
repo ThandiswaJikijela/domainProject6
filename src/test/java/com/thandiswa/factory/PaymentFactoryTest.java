@@ -8,16 +8,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PaymentFactoryTest {
-    private Map<String, String> values;
 
     @Test
     public void getPayment() {
-        values = new HashMap<String, String>();
-        values.put("creditCardNo","8745665432df");
-        values.put("customerID","78634sd");
 
+        String creditCardNo = "876655hg8734";
         double refund = 500.59;
-        Payment pay = PaymentFactory.getPayment(values,refund);
+        Payment pay = PaymentFactory.getPayment(creditCardNo,refund);
         System.out.println(pay);
         Assert.assertNotNull(pay.toString());
     }

@@ -1,13 +1,15 @@
 package com.thandiswa.factory.LogIn;
 
 import com.thandiswa.domain.LogIn.LogIn;
+import com.thandiswa.util.IDs;
 
-import java.util.Map;
+
 
 public class LogInFactory {
-    public static LogIn getLogIn(Map<String, String> values,String username) {
-        return new LogIn.Builder().username(username)
-                .password(values.get("password"))
+    public static LogIn getLogIn(String password, String username) {
+        return new LogIn.Builder().staffID(IDs.generateId())
+                .username(username)
+                .password(password)
                 .build();
     }
 

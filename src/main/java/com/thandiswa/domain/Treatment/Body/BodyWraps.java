@@ -1,6 +1,7 @@
 package com.thandiswa.domain.Treatment.Body;
 
-public class BodyWraps extends BodyTreatment {
+public class BodyWraps {
+    private BodyTreatment bodyTreatment = new BodyTreatment();
     private String wrapMaterials;
 
     private BodyWraps()
@@ -34,7 +35,23 @@ public class BodyWraps extends BodyTreatment {
     }
     public String toString(){
         return"BodyWraps{" +
-                "wrapMaterials='" +wrapMaterials+
+                "treatment Id ='" +bodyTreatment.getTreatmentID()+
+                "wrapMaterials ='" +wrapMaterials+
                 '}';
     }
+
+    /*@Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() !=obj.getClass()) return false;
+        Booking booking = (Booking) obj;
+        return reservationID.equals(booking.reservationID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(reservationID);
+    }
+
+     */
 }

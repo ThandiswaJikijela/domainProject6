@@ -14,12 +14,14 @@ public class BodyWrapController {
     @Autowired
     private BodyWrapsServiceImpl service;
 
-    @GetMapping("/create/{wrapMaterials}")
+    /*@GetMapping("/create/{wrapMaterials}")
     public @ResponseBody
     BodyWraps create(@PathVariable String wrapMaterials){
         BodyWraps bodyWraps = BodyWrapFactory.getBodyWraps(wrapMaterials);
         return service.create(bodyWraps);
     }
+
+     */
 
     @GetMapping("/getAll")
     @ResponseBody

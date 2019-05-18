@@ -4,12 +4,16 @@ import com.thandiswa.domain.Treatment.Nail.NailTreatment;
 import com.thandiswa.repository.Impl.Treatment.Nail.NailTreatmentRepositoryImpl;
 import com.thandiswa.repository.Treatment.Nail.NailTreatmentRepository;
 import com.thandiswa.service.Treatment.Nail.NailTreatmentService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 public class NailTreatmentServiceImpl implements NailTreatmentService {
+    //@Autowired
+    @Qualifier("InMemory")
     private static NailTreatmentServiceImpl service = null;
     private NailTreatmentRepository repository;
 

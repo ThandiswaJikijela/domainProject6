@@ -15,21 +15,39 @@ import java.util.Set;
 @RequestMapping("/spa/login")
 public class LoginController {
 
-        @Autowired
+        //@Autowired
+        //@Qualifier("ServiceImpl")
         private LoginServiceImpl service;
-        private Map<String, String> values;
 
-        @GetMapping("/create/{username}")
-        public @ResponseBody
-        LogIn create(@PathVariable String username){
-            values = new HashMap<String,String>();
-            LogIn logIn = LogInFactory.getLogIn(values,username);
+        /*@PostMapping("/create")
+        @ResponseBody
+        public LogIn create (LogIn logIn){
             return service.create(logIn);
         }
 
-        @GetMapping("/getall")
+        @PostMapping("/update")
+        @ResponseBody
+        public LogIn update (LogIn logIn){
+            return  service.update(logIn);
+        }
+
+        @GetMapping("/delete/{password}")
+        @ResponseBody
+        public void delete(@PathVariable String password){
+            service.delete(password);
+        }
+
+        @GetMapping("/read/{password}")
+        @ResponseBody
+        public LogIn read(@PathVariable String password){
+            return service.read(password);
+        }
+
+        @GetMapping("/getAll")
         @ResponseBody
         public Set<LogIn> getAll(){
             return service.getAll();
         }
+
+         */
 }

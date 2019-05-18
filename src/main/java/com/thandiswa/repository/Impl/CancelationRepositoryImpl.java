@@ -3,9 +3,7 @@ package com.thandiswa.repository.Impl;
 import com.thandiswa.domain.Cancelation;
 import com.thandiswa.repository.CancelationRepository;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class CancelationRepositoryImpl implements CancelationRepository {
 
@@ -24,9 +22,8 @@ public class CancelationRepositoryImpl implements CancelationRepository {
 
     @Override
     public Cancelation create(Cancelation cancelation) {
-        cancelationMap.put(cancelation.getPaymentMethod(),cancelation);
-        Cancelation savedCancelation = cancelationMap.get(toString());
-        return savedCancelation;
+        this.cancelationMap.put(cancelation.toString(),cancelation);
+        return cancelation;
     }
 
     @Override
@@ -37,9 +34,8 @@ public class CancelationRepositoryImpl implements CancelationRepository {
 
     @Override
     public Cancelation update(Cancelation cancelation) {
-        cancelationMap.put(cancelation.toString(),cancelation);
-        Cancelation savedCancelation = cancelationMap.get(toString());
-        return savedCancelation;
+        this.cancelationMap.replace(cancelation.toString(),cancelation);
+        return this.cancelationMap.get(cancelation.toString());
     }
 
     @Override
@@ -49,6 +45,9 @@ public class CancelationRepositoryImpl implements CancelationRepository {
 
     @Override
     public Set<Cancelation> getAll() {
-        return (Set<Cancelation>) cancelationMap;
+        Collection<Cancelation> cancelations = this.cancelationMap.values();
+        Set<Cancelation> set = new HashSet<>();
+        set.addAll(cancelations);
+        return set;
     }
 }

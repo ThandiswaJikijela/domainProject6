@@ -8,13 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LogInFactoryTest {
-    private Map<String, String> values;
     @Test
     public void getLogIn() {
-        values = new HashMap<String,String>();
-        String username = "Thandie";
-        LogIn log = LogInFactory.getLogIn(values, username);
+        String password ="76thfa";
+        String username = "Sindie";
+        LogIn log = LogInFactory.getLogIn(password,username);
         System.out.print(log);
-        Assert.assertNotNull(log.getUsername());
+        Assert.assertNotNull(log.toString());
     }
 }
