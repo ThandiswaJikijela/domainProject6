@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceTissueImpl")
 public class TissueMassageServiceImpl implements TissueMassageService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static TissueMassageServiceImpl service = null;
     private TissueMassageRepository repository;

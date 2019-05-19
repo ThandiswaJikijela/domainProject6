@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceScrubImpl")
 public class BodyScrubServiceImpl implements BodyScrubService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static BodyScrubServiceImpl service = null;
     private BodyScrubRepository repository;

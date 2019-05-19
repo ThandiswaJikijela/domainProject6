@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceRegisterImpl")
 public class RegisterServiceImpl implements RegisterService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static RegisterServiceImpl service = null;
     private RegisterRepository repository;

@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceCancellationImpl")
 public class CancelationServiceImpl implements CancelationService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static CancelationServiceImpl service = null;
     private CancelationRepository repository;

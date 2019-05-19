@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceSwedishImpl")
 public class SwedishMassageServiceImpl implements SwedishMassageService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static SwedishMassageServiceImpl service = null;
     private SwedishMassageRepository repository;

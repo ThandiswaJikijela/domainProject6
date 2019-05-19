@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceAntiImpl")
 public class AntiAgingFacialServiceImpl implements AntiAgingFacialService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static AntiAgingFacialServiceImpl service = null;
     private AntiAgingFacialRepository repository;

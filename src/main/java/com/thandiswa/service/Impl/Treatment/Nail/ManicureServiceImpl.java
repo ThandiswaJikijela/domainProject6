@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceManicureImpl")
 public class ManicureServiceImpl implements ManicureService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static ManicureServiceImpl service = null;
     private ManicureRepository repository;

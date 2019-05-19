@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServicePaymentImpl")
 public class PaymentServiceImpl implements PaymentService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static PaymentServiceImpl service = null;
     private PaymentRepository repository;

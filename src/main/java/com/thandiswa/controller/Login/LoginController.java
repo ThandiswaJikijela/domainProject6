@@ -5,21 +5,21 @@ import com.thandiswa.domain.LogIn.LogIn;
 import com.thandiswa.factory.LogIn.LogInFactory;
 import com.thandiswa.service.Impl.Login.LoginServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
-import java.util.Map;
+
 import java.util.Set;
 
 @RestController
-@RequestMapping("/spa/login")
+@RequestMapping("login")
 public class LoginController {
 
-        //@Autowired
-        //@Qualifier("ServiceImpl")
+        @Autowired
+        @Qualifier("ServiceLoginImpl")
         private LoginServiceImpl service;
 
-        /*@PostMapping("/create")
+        @PostMapping("/create")
         @ResponseBody
         public LogIn create (LogIn logIn){
             return service.create(logIn);
@@ -48,6 +48,4 @@ public class LoginController {
         public Set<LogIn> getAll(){
             return service.getAll();
         }
-
-         */
 }

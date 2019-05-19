@@ -12,20 +12,17 @@ import java.util.Map;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/spa/booking")
+@RequestMapping("/booking")
 public class BookingController {
 
-    //@Autowired
-    //@Qualifier("ServiceImpl")
+    @Autowired
+    @Qualifier("ServiceBookingImpl")
     private BookingServiceImpl service;
-    private Map<String, String> values;
 
-    /*@GetMapping("/create/{totalPrice}")
+    @GetMapping("/create/{treatmentType}")
     @ResponseBody
-    public Booking create(@PathVariable  Double totalPrice){
-        values = new HashMap<>();
-        values.put("treatmentType","Massage Treatment");
-        Booking booking = BookingFactory.getBooking(values,totalPrice);
+    public Booking create(@PathVariable  String treatmentType, double totalPrice){
+        Booking booking = BookingFactory.getBooking(treatmentType,totalPrice);
         return service.create(booking);
     }
 
@@ -37,14 +34,14 @@ public class BookingController {
 
     @PostMapping("/delete")
     @ResponseBody
-    public void delete(String id){
-        service.delete(id);
+    public void delete(String reservationID){
+        service.delete(reservationID);
     }
 
     @PostMapping("/read")
     @ResponseBody
-    public Booking read(String id){
-        return service.read(id);
+    public Booking read(String reservationID){
+        return service.read(reservationID);
     }
 
     @GetMapping("/getAll")
@@ -53,5 +50,4 @@ public class BookingController {
         return service.getAll();
     }
 
-     */
 }

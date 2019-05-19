@@ -9,6 +9,6 @@ public class IndexController {
     @GetMapping("/")
     @ResponseBody
     public String getHome(){
-        return "Hello SPA";
+        return "Hello Serenity SPA";
     }
 }

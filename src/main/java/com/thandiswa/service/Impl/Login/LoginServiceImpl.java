@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-@Service
+@Service("ServiceLoginImpl")
 public class LoginServiceImpl implements LoginService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static LoginServiceImpl service = null;
     private LoginRepository repository;

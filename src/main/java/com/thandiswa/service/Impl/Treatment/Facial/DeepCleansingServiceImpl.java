@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceDeepCleansingImpl")
 public class DeepCleansingServiceImpl implements DeepCleansingService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static DeepCleansingServiceImpl service = null;
     private DeepCleansingRepository repository;

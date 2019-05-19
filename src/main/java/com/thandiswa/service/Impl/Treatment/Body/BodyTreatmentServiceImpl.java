@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServiceBodyTreatmentImpl")
 public class BodyTreatmentServiceImpl implements BodyTreatmentService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static BodyTreatmentServiceImpl service = null;
     private BodyTreatmentRepository repository;

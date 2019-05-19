@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-@Service
+@Service("ServicePedicureImpl")
 public class PedicureServiceImpl implements PedicureService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static PedicureServiceImpl service = null;
     private PedicureRepository repository;

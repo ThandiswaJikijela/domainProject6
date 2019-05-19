@@ -10,13 +10,14 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/spa/register")
+@RequestMapping("/register")
 public class RegisterController {
-    //@Autowired
-    //@Qualifier("ServiceImpl")
+
+    @Autowired
+    @Qualifier("ServiceRegisterImpl")
     private RegisterServiceImpl service;
 
-    /*@PostMapping("/create")
+    @PostMapping("/create")
     @ResponseBody
     public Register create(Register register){
         return service.create(register);
@@ -45,7 +46,5 @@ public class RegisterController {
     public Set<Register> getAll(){
         return service.getAll();
     }
-
-     */
 
 }

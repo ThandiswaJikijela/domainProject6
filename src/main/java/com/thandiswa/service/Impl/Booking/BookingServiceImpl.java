@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
-@Service
+@Service("ServiceBookingImpl")
 public class BookingServiceImpl implements BookingService {
-    //@Autowired
+    @Autowired
     @Qualifier("InMemory")
     private static BookingServiceImpl service = null;
     private BookingRepository repository;
