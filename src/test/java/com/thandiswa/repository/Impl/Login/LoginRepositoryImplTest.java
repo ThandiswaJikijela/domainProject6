@@ -4,8 +4,10 @@ import com.thandiswa.domain.LogIn.LogIn;
 import com.thandiswa.factory.LogIn.LogInFactory;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import com.thandiswa.repository.Login.LoginRepository;
+import org.junit.runners.MethodSorters;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,53 +15,53 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class LoginRepositoryImplTest {
     private LoginRepository repository;
+    private LogIn logIn;
 
     @Before
     public void setUp() throws Exception {
         repository = LoginRepositoryImpl.getRepository();
+        this.logIn = LogInFactory.getLogIn("lut#1375","Lutho");
     }
 
     @Test
     public void create() {
-
-        LogIn logIn = LogInFactory.getLogIn("mySis6548","Lwabo");
-        repository.create(logIn);
-        System.out.print(logIn);
-        Assert.assertNotNull(logIn);
+        LogIn created = this.repository.create(this.logIn);
+        System.out.println("In create, created = " + created);
+        getAll();
+        Assert.assertEquals(created,this.logIn);
     }
 
     @Test
     public void read() {
-        LogIn readLogin = repository.read("");
-        assertEquals("Siphiwe",readLogin.getUsername());
+        System.out.println("In read, username = "+ logIn.getUsername());
+        LogIn read = this.repository.read(logIn.getUsername());
+        System.out.println("In read, read = " + read);
+        getAll();
+        assertNotEquals(logIn,read);
     }
 
     @Test
     public void update() {
-        /*LogIn logIn = repository.read("1");
-        LogIn newLogin = new LogIn.Builder()
-                .password(values.get("password"))
-                .username("Sinawo")
-                .build();
-        repository.update(newLogin);
-        LogIn UpdateLogin = repository.read("1");
-        assertEquals("Sinawo",UpdateLogin.getUsername());
-
-         */
+        String newUserName = "Lizolethu";
+        LogIn updated = new LogIn.Builder().username(newUserName).build();
+        System.out.println("In update, about_to_updated = " + logIn.getUsername());
+        this.repository.update(updated);
+        System.out.println("In update, updated = " + updated);
+        assertEquals(newUserName, updated.getUsername());
+        getAll();
     }
 
     @Test
     public void delete() {
-        repository.delete("1");
-        LogIn logIn = repository.read("");
-        assertNull(logIn);
+        this.repository.delete(logIn.getPassword());
+        getAll();
     }
 
     @Test
     public void getAll() {
-        Set<LogIn> bookings = this.repository.getAll();
-        Assert.assertEquals(1,bookings.size());
+        Set<LogIn> logIns = this.repository.getAll();
     }
 }

@@ -4,8 +4,10 @@ import com.thandiswa.domain.Cancelation;
 import com.thandiswa.factory.CancelationFactory;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import com.thandiswa.repository.CancelationRepository;
+import org.junit.runners.MethodSorters;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,49 +15,54 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class CancelationRepositoryImplTest {
     private CancelationRepository repository;
+    private Cancelation cancelation;
 
     @Before
     public void setUp() throws Exception {
         repository = CancelationRepositoryImpl.getRepository();
+        this.cancelation = CancelationFactory.getCancelation("Credit Card");
     }
 
     @Test
     public void create() {
-        Cancelation cancelation = CancelationFactory.getCancelation("Credit Card");
-        repository.create(cancelation);
-        System.out.print(cancelation);
-        assertEquals("Credit Card",cancelation.getPaymentMethod());
+        Cancelation created = this.repository.create(this.cancelation);
+        System.out.println("In create, created = " + created);
+        getAll();
+        Assert.assertEquals(created,this.cancelation);
     }
 
     @Test
     public void read() {
-        Cancelation readCancelation = repository.read("1");
-        assertEquals("Credit Card",readCancelation.getPaymentMethod());
+        System.out.println("In read, payment method = "+ cancelation.getPaymentMethod());
+        Cancelation read = this.repository.read(cancelation.getPaymentMethod());
+        System.out.println("In read, read = " + read);
+        getAll();
+        assertNotEquals(cancelation,read);
     }
 
     @Test
     public void update() {
-        Cancelation cancelation = repository.read("1");
-        Cancelation newCancelation= new Cancelation.Builder()
-                .paymentMethod("Cash")
-                .build();
-        repository.update(newCancelation);
-        Cancelation UpdateCancelation = repository.read("1");
-        assertEquals("Cash",UpdateCancelation.getPaymentMethod());
+        String newPaymentMethod = "Cash";
+        Cancelation updated = new Cancelation.Builder().paymentMethod(newPaymentMethod).build();
+        System.out.println("In update, about_to_updated = " + cancelation.getPaymentMethod());
+        this.repository.update(updated);
+        System.out.println("In update, updated = " + updated);
+        assertEquals(newPaymentMethod, updated.getPaymentMethod());
+        getAll();
     }
 
     @Test
     public void delete() {
-        repository.delete("1");
-        Cancelation cancelation = repository.read("1");
-        assertNull(cancelation);
+        this.repository.delete(cancelation.getPaymentMethod());
+        getAll();
     }
 
     @Test
     public void getAll() {
-        Set<Cancelation> cancelation = this.repository.getAll();
-        Assert.assertEquals(1,cancelation.size());
+        Set<Cancelation> cancelations = this.repository.getAll();
+        //System.out.println("In getAll, all = " + cancelations);
     }
 }

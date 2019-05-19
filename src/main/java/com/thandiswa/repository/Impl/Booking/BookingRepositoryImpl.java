@@ -16,16 +16,9 @@ public class BookingRepositoryImpl implements BookingRepository{
         bookingTable = new HashMap<>();
     }
 
-    /*private Booking findBooking(final String reservationID){
-        return this.bookingTable.stream()
-                .filter(booking -> booking.getReservationID().trim().equals(reservationID))
-                .findAny()
-                .orElse(null);
-    }*/
 
-    public static BookingRepository getRepository(){
-        if(repository == null)
-            repository = new BookingRepositoryImpl();
+    public static BookingRepositoryImpl getRepository(){
+        if(repository == null) repository = new BookingRepositoryImpl();
         return repository;
     }
 

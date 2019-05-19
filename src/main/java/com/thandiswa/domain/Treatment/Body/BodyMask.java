@@ -17,6 +17,13 @@ public class BodyMask {
         this.maskIngredients = builder.maskIngredients;
     }
 
+    /*public String id(){
+        String treatmentId = bodyTreatment.getTreatmentID();
+        return treatmentId;
+    }
+
+     */
+
     public String getMaskIngredients() {
         return maskIngredients;
     }
@@ -44,18 +51,17 @@ public class BodyMask {
                 '}';
     }
 
-   /* @Override
+   @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() !=obj.getClass()) return false;
         BodyMask bodyMask = (BodyMask) obj;
-        return bodyTreatment.equals(bodyMask.bodyTreatment);
+        return bodyTreatment.getTreatmentID().equals(bodyMask.bodyTreatment.getTreatmentID());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(reservationID);
+        return Objects.hash(bodyTreatment.getTreatmentID());
     }
 
-    */
 }

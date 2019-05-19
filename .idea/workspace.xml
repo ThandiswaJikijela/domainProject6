@@ -2,154 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee1c241-39bb-4b33-b87d-a98eca3105c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/util/IDs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/META-INF/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Booking/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Booking/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/CancelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/CancelationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Login/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Login/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/SpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/SpaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Staff/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Staff/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Staff/SpaAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Staff/SpaAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Staff/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Staff/StaffController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyMaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyMaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyScrubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyScrubController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyWrapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyWrapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/AromatherapyContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/AromatherapyContoller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/TissueMassageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/TissueMassageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/ManicureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/ManicureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/PedicureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/PedicureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/TreatmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/TreatmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Booking/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Cancelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Cancelation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/LogIn/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/LogIn/LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/LogIn/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/LogIn/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Spa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Spa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Staff/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Staff/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Staff/SpaAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Staff/SpaAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Staff/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Staff/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyMask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyMask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyScrub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyScrub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyTreatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyTreatment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyWraps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyWraps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/DeepCleansing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/DeepCleansing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/FacialTreatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/FacialTreatment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/Aromatherapy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/Aromatherapy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/MassageTreatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/MassageTreatment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/SwedishMassage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/SwedishMassage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/TissueMassage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/TissueMassage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/Manicure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/Manicure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/NailTreatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/NailTreatment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/Pedicure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/Pedicure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Treatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Treatment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Booking/BookingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Booking/BookingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/CancelationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/CancelationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/LogIn/LogInFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/LogIn/LogInFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/LogIn/RegisterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/LogIn/RegisterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/MemberFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/MemberFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/PaymentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/PaymentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/SpaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/SpaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/SpaAdminFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/SpaAdminFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/StaffFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/StaffFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyMaskFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyMaskFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyScrubFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyScrubFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyWrapFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyWrapFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/AromatherapyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/AromatherapyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/TissueMassageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/TissueMassageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/ManicureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/ManicureFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/PedicureFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/PedicureFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/TreatmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/TreatmentFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/CancelationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/CancelationRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/MemberRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/MemberRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/PaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/PaymentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/SpaRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/SpaRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Booking/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Booking/BookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/CancelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/CancelationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Login/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Login/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Login/RegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Login/RegisterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/SpaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/SpaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Staff/StaffServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Staff/StaffServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Booking/BookingFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Booking/BookingFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/CancelationFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/CancelationFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/LogInFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/LogInFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/RegisterFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/RegisterFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/MemberFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/MemberFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/PaymentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/PaymentFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/SpaFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/SpaFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/EmployeeFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/EmployeeFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/SpaAdminFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/SpaAdminFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/StaffFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/StaffFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/TreatmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/TreatmentFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" afterDir="false" />
@@ -159,293 +15,46 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/domain.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/SPAApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/SPAApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Booking/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Booking/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Login/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Booking/Booking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Booking/Booking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Booking/Booking$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Booking/Booking$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Booking/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Booking/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/LogIn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/LogIn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/LogIn$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/LogIn$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/Register$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/Register$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/Register$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/LogIn/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Member$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Member$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Member$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Member$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Payment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Payment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Payment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Payment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Spa$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Spa$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Spa$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Spa$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Spa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Spa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Employee$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Employee$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Employee$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Employee$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/SpaAdmin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/SpaAdmin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/SpaAdmin$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/SpaAdmin$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/SpaAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/SpaAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Staff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Staff$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Staff$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Staff$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Staff/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyMask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyMask$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyMask$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyMask$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyMask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyMask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyScrub$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyScrub$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyScrub$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyScrub$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyScrub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyScrub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyTreatment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyTreatment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyTreatment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyTreatment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyTreatment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyTreatment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyWraps$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyWraps$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyWraps$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyWraps$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyWraps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Body/BodyWraps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/AntAgingFacial$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/AntAgingFacial$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/AntAgingFacial$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/AntAgingFacial$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/DeepCleansing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/DeepCleansing$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/DeepCleansing$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/DeepCleansing$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/DeepCleansing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/DeepCleansing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/FacialTreatment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/FacialTreatment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/FacialTreatment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/FacialTreatment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/FacialTreatment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Facial/FacialTreatment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/Aromatherapy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/Aromatherapy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/Aromatherapy$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/Aromatherapy$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/Aromatherapy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/Aromatherapy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/MassageTreatment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/MassageTreatment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/MassageTreatment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/MassageTreatment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/MassageTreatment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/MassageTreatment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/SwedishMassage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/SwedishMassage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/SwedishMassage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/SwedishMassage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/SwedishMassage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/SwedishMassage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/TissueMassage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/TissueMassage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/TissueMassage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/TissueMassage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/TissueMassage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Massage/TissueMassage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Manicure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Manicure$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Manicure$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Manicure$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Manicure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Manicure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/NailTreatment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/NailTreatment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/NailTreatment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/NailTreatment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/NailTreatment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/NailTreatment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Pedicure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Pedicure$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Pedicure$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Pedicure$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Pedicure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Nail/Pedicure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Treatment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Treatment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Treatment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Treatment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Treatment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Treatment/Treatment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Booking/BookingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Booking/BookingFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/CancelationFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/CancelationFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/LogIn/LogInFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/LogIn/LogInFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/LogIn/RegisterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/LogIn/RegisterFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/MemberFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/MemberFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/PaymentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/PaymentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/SpaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/SpaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Staff/EmployeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Staff/EmployeeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Staff/SpaAdminFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Staff/SpaAdminFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Staff/StaffFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Staff/StaffFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyMaskFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyMaskFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyScrubFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyScrubFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyWrapFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Body/BodyWrapFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/AromatherapyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/AromatherapyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/TissueMassageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Massage/TissueMassageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Nail/ManicureFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Nail/ManicureFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Nail/PedicureFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/Nail/PedicureFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/TreatmentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/Treatment/TreatmentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Booking/BookingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Booking/BookingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/CancelationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/CancelationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/IRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Booking/BookingRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Booking/BookingRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/CancelationRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/CancelationRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Login/LoginRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Login/LoginRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Login/RegisterRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Login/RegisterRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/MemberRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/MemberRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/PaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/PaymentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/SpaRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/SpaRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Staff/StaffRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Staff/StaffRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Login/LoginRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Login/LoginRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Login/RegisterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Login/RegisterRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/PaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/SpaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/SpaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Staff/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Staff/EmployeeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Staff/SpaAdminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Staff/SpaAdminRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Staff/StaffRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Staff/StaffRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyMaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyMaskRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyScrubRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyScrubRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyTreatmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyTreatmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyWrapsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Body/BodyWrapsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Facial/AntiAgingFacialRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Facial/AntiAgingFacialRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Facial/DeepCleansingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Facial/DeepCleansingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Facial/FacialTreatmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Facial/FacialTreatmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/AromatherapyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/AromatherapyRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/MassageTreatmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/MassageTreatmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/SwedishMassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/SwedishMassageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/TissueMassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Massage/TissueMassageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Nail/ManicureRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Nail/ManicureRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Nail/NailTreatmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Nail/NailTreatmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Nail/PedicureRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/Nail/PedicureRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/TreatmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Treatment/TreatmentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Booking/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Booking/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/CancelationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/CancelationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/IService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Booking/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Booking/BookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/CancelationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/CancelationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/LoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/RegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/RegisterServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/PaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/SpaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/SpaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Staff/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Staff/EmployeeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Staff/SpaAdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Staff/SpaAdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Staff/StaffServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Staff/StaffServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/TreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/TreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Login/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Login/LoginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Login/RegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Login/RegisterService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/MemberService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/PaymentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/SpaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/SpaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Staff/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Staff/EmployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Staff/SpaAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Staff/SpaAdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Staff/StaffService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Staff/StaffService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyMaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyMaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyScrubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyScrubService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyTreatmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyTreatmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyWrapsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Body/BodyWrapsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Facial/AntiAgingFacialService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Facial/AntiAgingFacialService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Facial/DeepCleansingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Facial/DeepCleansingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Facial/FacialTreatmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Facial/FacialTreatmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/AromatherapyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/AromatherapyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/MassageTreatmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/MassageTreatmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/SwedishMassageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/SwedishMassageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/TissueMassageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Massage/TissueMassageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Nail/ManicureService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Nail/ManicureService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Nail/NailTreatmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Nail/NailTreatmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Nail/PedicureService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/Nail/PedicureService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/TreatmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Treatment/TreatmentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/domain.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Booking/BookingFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/CancelationFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/LogIn/LogInFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/LogIn/RegisterFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/MemberFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/PaymentFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/SpaFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Staff/EmployeeFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Staff/SpaAdminFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Staff/StaffFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Body/BodyMaskFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Body/BodyScrubFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Body/BodyWrapFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Massage/AromatherapyFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Massage/TissueMassageFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Nail/ManicureFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/Nail/PedicureFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/Treatment/TreatmentFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/MemberRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/PaymentRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/SpaRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/CancelationServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/CancelationServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Login/LoginServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Login/LoginServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/MemberServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/MemberServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/PaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/PaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/SpaServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/SpaServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancelationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancelationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/MemberServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/MemberServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/PaymentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/PaymentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/SpaServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/SpaServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -475,10 +84,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            <state relative-caret-position="85">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-106">
+              <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -500,57 +118,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/SpaAdminFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Staff/StaffFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyMaskFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyScrubFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Body/BodyWrapFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/AromatherapyFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/TissueMassageFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/TreatmentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/ManicureFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/PedicureFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/CancelationFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/MemberFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/PaymentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/SpaFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Booking/BookingFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/LogInFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/EmployeeFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/SpaAdminFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/StaffFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/TreatmentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/CancelationFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/MemberFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/PaymentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/SpaFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/MemberRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancelationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/MemberServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/PaymentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/PaymentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/MemberRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/SpaRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/RegisterFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/SpaServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyMask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -573,9 +191,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="589" />
-    <option name="width" value="787" />
-    <option name="height" value="744" />
+    <option name="width" value="600" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -622,6 +239,25 @@
               <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
               <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Treatment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -656,7 +292,48 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
               <item name="Impl" type="462c0819:PsiDirectoryNode" />
-              <item name="Booking" type="462c0819:PsiDirectoryNode" />
+              <item name="Treatment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+              <item name="Treatment" type="462c0819:PsiDirectoryNode" />
+              <item name="Massage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+              <item name="Treatment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+              <item name="Treatment" type="462c0819:PsiDirectoryNode" />
+              <item name="Massage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -715,82 +392,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookingRepositoryImplTest">
-    <configuration name="BookingRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TissueMassageServiceImplTest">
+    <configuration name="MassageTreatmentServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.service.Impl.Treatment.Massage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.service.Impl.Treatment.Massage" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.service.Impl.Treatment.Massage.MassageTreatmentServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingRepositoryImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SwedishMassageRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.repository.Impl.Treatment.Massage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Treatment.Massage" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Treatment.Massage.SwedishMassageRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingRepositoryImplTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SwedishMassageServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.service.Impl.Treatment.Massage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
-      <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.service.Impl.Treatment.Massage" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.service.Impl.Treatment.Massage.SwedishMassageServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingRepositoryImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TissueMassageRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.repository.Impl.Treatment.Massage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Treatment.Massage" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Treatment.Massage.TissueMassageRepositoryImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingRepositoryImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TissueMassageServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.service.Impl.Treatment.Massage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.service.Impl.Treatment.Massage" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.service.Impl.Treatment.Massage.TissueMassageServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -810,11 +483,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookingRepositoryImplTest" />
-        <item itemvalue="JUnit.BookingRepositoryImplTest.getAll" />
-        <item itemvalue="JUnit.BookingRepositoryImplTest.update" />
-        <item itemvalue="JUnit.BookingRepositoryImplTest.read" />
-        <item itemvalue="JUnit.BookingRepositoryImplTest.delete" />
+        <item itemvalue="JUnit.TissueMassageServiceImplTest" />
+        <item itemvalue="JUnit.TissueMassageRepositoryImplTest" />
+        <item itemvalue="JUnit.SwedishMassageServiceImplTest" />
+        <item itemvalue="JUnit.SwedishMassageRepositoryImplTest" />
+        <item itemvalue="JUnit.MassageTreatmentServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -840,44 +513,44 @@
       <workItem from="1557521276294" duration="21420000" />
       <workItem from="1557555381731" duration="22253000" />
       <workItem from="1557749037828" duration="14940000" />
-      <workItem from="1557857322918" duration="68016000" />
+      <workItem from="1557857322918" duration="100841000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookingRepositoryImplTest_read - 2019.05.18 at 04h 43m 16s.xml">
-      <configuration name="BookingRepositoryImplTest.read" configurationId="JUnit" />
+    <history-entry file="NailTreatmentRepositoryImplTest - 2019.05.19 at 20h 38m 16s.xml">
+      <configuration name="NailTreatmentRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_read - 2019.05.18 at 04h 45m 18s.xml">
-      <configuration name="BookingRepositoryImplTest.read" configurationId="JUnit" />
+    <history-entry file="NailTreatmentServiceImplTest - 2019.05.19 at 20h 45m 28s.xml">
+      <configuration name="NailTreatmentServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_delete - 2019.05.18 at 04h 46m 35s.xml">
-      <configuration name="BookingRepositoryImplTest.delete" configurationId="JUnit" />
+    <history-entry file="ManicureRepositoryImplTest - 2019.05.19 at 20h 56m 34s.xml">
+      <configuration name="ManicureRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_read - 2019.05.18 at 04h 47m 58s.xml">
-      <configuration name="BookingRepositoryImplTest.read" configurationId="JUnit" />
+    <history-entry file="ManicureServiceImplTest - 2019.05.19 at 20h 57m 58s.xml">
+      <configuration name="ManicureServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_update - 2019.05.18 at 04h 54m 35s.xml">
-      <configuration name="BookingRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="AromatherapyRepositoryImplTest - 2019.05.19 at 21h 06m 14s.xml">
+      <configuration name="AromatherapyRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_update - 2019.05.18 at 04h 55m 07s.xml">
-      <configuration name="BookingRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="AromatherapyServiceImplTest - 2019.05.19 at 21h 09m 26s.xml">
+      <configuration name="AromatherapyServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_update - 2019.05.18 at 04h 55m 52s.xml">
-      <configuration name="BookingRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="MassageTreatmentRepositoryImplTest - 2019.05.19 at 21h 15m 52s.xml">
+      <configuration name="MassageTreatmentRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_update - 2019.05.18 at 04h 56m 18s.xml">
-      <configuration name="BookingRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="MassageTreatmentServiceImplTest - 2019.05.19 at 21h 21m 05s.xml">
+      <configuration name="MassageTreatmentServiceImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_update - 2019.05.18 at 04h 57m 16s.xml">
-      <configuration name="BookingRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="SwedishMassageRepositoryImplTest - 2019.05.19 at 21h 29m 53s.xml">
+      <configuration name="SwedishMassageRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingRepositoryImplTest_update - 2019.05.18 at 04h 57m 36s.xml">
-      <configuration name="BookingRepositoryImplTest.update" configurationId="JUnit" />
+    <history-entry file="SwedishMassageServiceImplTest - 2019.05.19 at 21h 31m 29s.xml">
+      <configuration name="SwedishMassageServiceImplTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292793000" />
+    <option name="totallyTimeSpent" value="325618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,12 +571,12 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49763033" weight="0.24281392" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49763033" visible="true" weight="0.24281392" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28805238" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28805238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -913,56 +586,20 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.26841244" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33060557" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3289689" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Database" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="2" weight="0.32980332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.24962178" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" sideWeight="0.50236964" side_tool="true" weight="0.27685326" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49763033" weight="0.30939227" />
-      <window_info id="Learn" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28854963" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.0106870225" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.26841244" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.26841244" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.33060557" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3289689" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.3289689" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Database" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="2" weight="0.32980332" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.24962178" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -972,360 +609,368 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/PedicureFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/TreatmentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Nail/ManicureFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/Treatment/Massage/AromatherapyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/MemberFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/PaymentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/CancelationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/factory/SpaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Spa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="234">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="251">
+          <caret line="65" column="62" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="65" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="81" lean-forward="true" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancelationServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="267">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/MemberRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/MemberServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="748">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/PaymentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/PaymentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/MemberRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/SpaServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/SpaRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Booking/BookingFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/LogInFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/LogIn/RegisterFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/EmployeeFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/SpaAdminFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="183">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Staff/StaffFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyMask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="269">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyMaskFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyScrub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyScrubFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyTreatmentFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Body/BodyWrapFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="28" column="75" lean-forward="true" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Facial/AntiAgingFacialFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/DeepCleansing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="28" column="79" lean-forward="true" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Facial/DeepCleansingFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="251">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Facial/FacialTreatmentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/AromatherapyFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/MassageTreatmentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/SwedishMassageFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Massage/TissueMassageFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Nail/ManicureFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Nail/NailTreatmentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/Nail/PedicureFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/Treatment/TreatmentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/CancelationFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/MemberFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/PaymentFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/factory/SpaFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="376">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="578">
+          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="56" column="71" lean-forward="true" selection-start-line="56" selection-start-column="71" selection-end-line="56" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="58" column="66" lean-forward="true" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>

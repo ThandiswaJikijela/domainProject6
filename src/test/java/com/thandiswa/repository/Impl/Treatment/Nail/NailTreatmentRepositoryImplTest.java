@@ -4,8 +4,10 @@ import com.thandiswa.domain.Treatment.Nail.NailTreatment;
 import com.thandiswa.factory.Treatment.Nail.NailTreatmentFactory;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
 import com.thandiswa.repository.Treatment.Nail.NailTreatmentRepository;
+import org.junit.runners.MethodSorters;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,52 +15,54 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class NailTreatmentRepositoryImplTest {
     private NailTreatmentRepository repository;
-    private Map<String, String> values;
+    private NailTreatment nailTreatment;
 
     @Before
     public void setUp() throws Exception {
         repository = NailTreatmentRepositoryImpl.getRepository();
+        this.nailTreatment = NailTreatmentFactory.getNailTreatment("Manicure","Round nails");
     }
 
     @Test
     public void create() {
-        NailTreatment treatment = NailTreatmentFactory.getNailTreatment("Manicure","Round nails");
-        repository.create(treatment);
-        System.out.print(treatment);
-        assertEquals("Manicure",treatment.getNailType());
+        NailTreatment created = this.repository.create(this.nailTreatment);
+        System.out.println("In create, created = " + created);
+        getAll();
+        assertEquals(created,this.nailTreatment);
     }
 
     @Test
     public void read() {
-        NailTreatment readNailTreatment = repository.read("1");
-        assertEquals("Manicure",readNailTreatment.getNailType());
+        System.out.println("In read, nail type= "+ nailTreatment.getNailType());
+        NailTreatment read = this.repository.read(nailTreatment.getNailType());
+        //System.out.println("In read, read = " + read);
+        getAll();
+        assertNotEquals(nailTreatment,read);
     }
 
     @Test
     public void update() {
-        NailTreatment treatment = repository.read("1");
-        NailTreatment newNailTreatment = new NailTreatment.Builder()
-                .nailType("Pedicure")
-                .nailShape(values.get("nailShape"))
-                .nailSize(values.size())
-                .build();
-        repository.update(newNailTreatment);
-        NailTreatment UpdateNailTreatment = repository.read("1");
-        assertEquals("Pedicure",UpdateNailTreatment.getNailType());
+        String newTreatmentID = "n467d37";
+        NailTreatment updated = new NailTreatment.Builder().treatmentID(newTreatmentID).build();
+        System.out.println("In update, about_to_updated = " + nailTreatment.getTreatmentID());
+        this.repository.update(updated);
+        System.out.println("In update, updated = " + updated);
+        assertEquals(newTreatmentID, updated.getTreatmentID());
+        getAll();
     }
 
     @Test
     public void delete() {
-        repository.delete("1");
-        NailTreatment treatment = repository.read("1");
-        assertNull(treatment);
+        this.repository.delete(nailTreatment.getNailType());
+        getAll();
     }
 
     @Test
     public void getAll() {
         Set<NailTreatment> treatment = this.repository.getAll();
-        Assert.assertEquals(1,treatment.size());
+        //System.out.println("In getAll, all = " + treatment);
     }
 }

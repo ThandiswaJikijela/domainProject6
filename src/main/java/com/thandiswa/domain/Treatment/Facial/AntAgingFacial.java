@@ -34,7 +34,7 @@ public class AntAgingFacial {
     }
     public String toString(){
         return"AntiAgingFacial{" +
-                " ='" +facialTreatment.toString()+
+                " ='" +facialTreatment.getTreatmentID()+
                 "Pore Ingredients ='" +poreIngredients+
                 '}';
     }
