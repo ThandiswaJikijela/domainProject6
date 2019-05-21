@@ -1,34 +1,32 @@
 package com.thandiswa.controller;
 
-import com.thandiswa.domain.Cancelation;
-import com.thandiswa.factory.CancelationFactory;
-import com.thandiswa.service.Impl.CancelationServiceImpl;
+import com.thandiswa.domain.Cancellation;
+import com.thandiswa.factory.CancellationFactory;
+import com.thandiswa.service.Impl.CancellationServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/Cancelation")
-public class CancelationController {
+@RequestMapping("/Cancellation")
+public class CancellationController {
     @Autowired
     @Qualifier("ServiceCancellationImpl")
-    private CancelationServiceImpl service;
+    private CancellationServiceImpl service;
 
     @GetMapping("/create/{paymentMethod}")
     public @ResponseBody
-    Cancelation create(@PathVariable String paymentMethod){
-        Cancelation cancelation = CancelationFactory.getCancelation(paymentMethod);
-        return service.create(cancelation);
+    Cancellation create(@PathVariable String paymentMethod){
+        Cancellation cancellation = CancellationFactory.getCancelation(paymentMethod);
+        return service.create(cancellation);
     }
 
     @PostMapping("/update")
     @ResponseBody
-    public Cancelation update(Cancelation cancelation){
-        return service.update(cancelation);
+    public Cancellation update(Cancellation cancellation){
+        return service.update(cancellation);
     }
 
     @PostMapping("/delete")
@@ -39,13 +37,13 @@ public class CancelationController {
 
     @PostMapping("/read")
     @ResponseBody
-    public Cancelation read(String reservationID){
+    public Cancellation read(String reservationID){
         return service.read(reservationID);
     }
 
     @GetMapping("/getAll")
     @ResponseBody
-    public Set<Cancelation> getAll(){
+    public Set<Cancellation> getAll(){
         return service.getAll();
     }
 }

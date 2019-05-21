@@ -3,13 +3,13 @@ package com.thandiswa.domain;
 import java.util.Date;
 import java.util.Objects;
 
-public class Cancelation {
+public class Cancellation {
     private Date bookedDate;
     private String reservationID, paymentMethod;
 
-    private Cancelation(){}
+    private Cancellation(){}
 
-    private Cancelation(Builder builder)
+    private Cancellation(Builder builder)
     {
         this.reservationID = builder.reservationID;
         this.bookedDate = builder.bookedDate;
@@ -50,13 +50,13 @@ public class Cancelation {
             return this;
         }
 
-        public Cancelation build(){
-            return new Cancelation(this);
+        public Cancellation build(){
+            return new Cancellation(this);
         }
     }
 
     public String toString(){
-        return"Cancelation{" +
+        return"Cancellation{" +
                 " reservationID ='" + reservationID+ '\'' +
                 " bookedDate ='" + bookedDate+ '\'' +
                 ", paymentMethod ='" + paymentMethod+ '\'' +
@@ -67,8 +67,8 @@ public class Cancelation {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() !=obj.getClass()) return false;
-        Cancelation cancelation = (Cancelation) obj;
-        return reservationID.equals(cancelation.reservationID);
+        Cancellation cancellation = (Cancellation) obj;
+        return reservationID.equals(cancellation.reservationID);
     }
 
     @Override
