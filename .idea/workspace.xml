@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ee1c241-39bb-4b33-b87d-a98eca3105c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/CancelationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/CancelationFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/CancelationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/CancelationRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/CancelationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/CancelationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/CancelationControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/LoginControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/LoginControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/RegisterControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/RegisterControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/MemberControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/MemberControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/PaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/PaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/SpaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/SpaControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/TreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/TreatmentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/CancelationFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/CancelationServiceImplTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="7ee1c241-39bb-4b33-b87d-a98eca3105c9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,20 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="272">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -242,6 +177,25 @@
               <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
               <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,38 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.thandiswa.controller in domainProject6">
-    <configuration name="BookingRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="domainProject6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterControllerTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="domainProject6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thandiswa.controller.Login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.controller.Login" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.controller.Login.RegisterControllerTest" />
-      <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.com.thandiswa.service.Impl in domainProject6">
     <configuration name="com.thandiswa.controller in domainProject6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
@@ -357,6 +280,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thandiswa.controller" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.thandiswa.factory in domainProject6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domainProject6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thandiswa.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thandiswa.factory" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -403,13 +340,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SPAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="domainProject6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thandiswa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thandiswa.SPAApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.thandiswa.controller in domainProject6" />
-        <item itemvalue="JUnit.com.thandiswa.repository.Impl in domainProject6" />
-        <item itemvalue="JUnit.BookingRepositoryImplTest" />
-        <item itemvalue="JUnit.RegisterControllerTest.getAll" />
         <item itemvalue="JUnit.com.thandiswa.service.Impl in domainProject6" />
+        <item itemvalue="JUnit.com.thandiswa.repository.Impl in domainProject6" />
+        <item itemvalue="JUnit.com.thandiswa.factory in domainProject6" />
+        <item itemvalue="JUnit.com.thandiswa.controller in domainProject6" />
+        <item itemvalue="Spring Boot.SPAApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -437,14 +387,11 @@
       <workItem from="1557749037828" duration="14940000" />
       <workItem from="1557857322918" duration="111873000" />
       <workItem from="1558370626360" duration="9157000" />
-      <workItem from="1558452310875" duration="26889000" />
+      <workItem from="1558452310875" duration="30238000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_thandiswa_repository_Impl_in_domainProject6 - 2019.05.22 at 09h 10m 12s.xml">
-      <configuration name="com.thandiswa.repository.Impl in domainProject6" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_thandiswa_service_Impl_in_domainProject6 - 2019.05.22 at 09h 11m 21s.xml">
       <configuration name="com.thandiswa.service.Impl in domainProject6" configurationId="JUnit" />
     </history-entry>
@@ -472,9 +419,12 @@
     <history-entry file="com_thandiswa_repository_Impl_in_domainProject6 - 2019.05.22 at 09h 48m 23s.xml">
       <configuration name="com.thandiswa.repository.Impl in domainProject6" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_thandiswa_controller_in_domainProject6 - 2019.05.22 at 10h 12m 22s.xml">
+      <configuration name="com.thandiswa.controller in domainProject6" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372696000" />
+    <option name="totallyTimeSpent" value="376045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,6 +437,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50236964" side_tool="true" weight="0.27685326" />
       <window_info id="Designer" order="1" />
@@ -494,12 +445,12 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49763033" visible="true" weight="0.2322239" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49763033" visible="true" weight="0.2322239" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28805238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28805238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -532,20 +483,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -868,6 +805,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Booking/BookingController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -875,17 +819,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Booking/BookingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
