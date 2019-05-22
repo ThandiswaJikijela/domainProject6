@@ -54,7 +54,7 @@ public class RegisterServiceImplTest {
     public void read() {
         System.out.println("In read, email = "+ register.getEmail());
         Register read = this.repository.read(register.getEmail());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(register,read);
     }

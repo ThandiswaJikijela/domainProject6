@@ -56,7 +56,7 @@ public class SpaAdminRepositoryImplTest {
     public void read() {
         System.out.println("In read, username = "+ spaAdmin.getPassword());
         SpaAdmin read = this.repository.read(spaAdmin.getPassword());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(spaAdmin,read);
     }

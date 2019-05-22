@@ -53,7 +53,7 @@ public class EmployeeServiceImplTest {
     public void read() {
         System.out.println("In read, password= "+ employee.getPassword());
         Employee read = this.repository.read(employee.getPassword());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(employee,read);
     }

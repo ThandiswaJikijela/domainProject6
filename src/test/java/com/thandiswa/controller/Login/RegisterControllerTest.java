@@ -2,6 +2,7 @@ package com.thandiswa.controller.Login;
 
 import com.thandiswa.domain.LogIn.Register;
 import com.thandiswa.factory.LogIn.RegisterFactory;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -66,6 +67,6 @@ public class RegisterControllerTest {
 
         HttpEntity<String> entity = new HttpEntity<>(null, headers);
         ResponseEntity<String> response = restTemplate.exchange(baseURL + "/read/add", HttpMethod.GET, entity, String.class);
-        assertNotNull(response.getBody());
+        assertNotNull(response.getBody(),response);
     }
 }

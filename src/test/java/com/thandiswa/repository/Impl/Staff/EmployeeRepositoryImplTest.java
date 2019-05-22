@@ -38,7 +38,7 @@ public class EmployeeRepositoryImplTest {
     public void read() {
         System.out.println("In read, username = "+ employee.getUsername());
         Employee read = this.repository.read(employee.getUsername());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(employee,read);
     }

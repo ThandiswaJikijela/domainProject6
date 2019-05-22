@@ -49,7 +49,7 @@ public class TreatmentRepositoryImplTest {
         Treatment updated = new Treatment.Builder().name(newName).build();
         System.out.println("In update, about_to_updated = " + treatment.getName());
         this.repository.update(updated);
-        System.out.println("In update, updated = " + updated);
+        //System.out.println("In update, updated = " + updated);
         assertEquals(newName, updated.getName());
         getAll();
     }

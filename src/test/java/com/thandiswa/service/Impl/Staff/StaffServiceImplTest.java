@@ -53,7 +53,7 @@ public class StaffServiceImplTest {
     public void read() {
         System.out.println("In read, address = "+ staff.getAddress());
         Staff read = this.repository.read(staff.getAddress());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(staff,read);
     }

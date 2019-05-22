@@ -53,7 +53,7 @@ public class CancellationServiceImplTest {
     public void read() {
         System.out.println("In read, payment method = "+ cancellation.getPaymentMethod());
         Cancellation read = this.repository.read(cancellation.getPaymentMethod());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(cancellation,read);
     }

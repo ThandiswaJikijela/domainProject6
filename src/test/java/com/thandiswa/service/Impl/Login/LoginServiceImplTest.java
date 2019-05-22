@@ -53,7 +53,7 @@ public class LoginServiceImplTest {
     public void read() {
         System.out.println("In read, password = "+ logIn.getPassword());
         LogIn read = this.repository.read(logIn.getPassword());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(logIn,read);
     }

@@ -39,7 +39,7 @@ public class RegisterRepositoryImplTest {
     public void read() {
         System.out.println("In read, name = "+ register.getName());
         Register read = this.repository.read(register.getName());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(register,read);
     }

@@ -2,86 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee1c241-39bb-4b33-b87d-a98eca3105c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/CancelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/CancellationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Cancelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Cancellation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/CancelationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/factory/CancellationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/CancelationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/CancellationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/CancelationRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/repository/Impl/CancellationRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/CancelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/CancellationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/CancelationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/CancellationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Booking/BookingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Booking/BookingControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/CancelationControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/CancellationControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/LoginControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/LoginControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/MemberControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/MemberControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/PaymentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/PaymentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/SpaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/SpaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/TreatmentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/TreatmentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/CancelationFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/factory/CancellationFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancelationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Booking/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Booking/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/CancelationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/CancelationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Login/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Login/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Login/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/SpaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/SpaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyMaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyMaskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyScrubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyScrubController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyTreatmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyTreatmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyWrapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Body/BodyWrapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Facial/DeepCleansingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Facial/DeepCleansingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Facial/FacialTreatmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Facial/FacialTreatmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/AromatherapyContoller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/MassageTreatmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/MassageTreatmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/SwedishMassageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/SwedishMassageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/TissueMassageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Massage/TissueMassageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Nail/ManicureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Nail/ManicureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Nail/NailTreatmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Nail/NailTreatmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Nail/PedicureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/Nail/PedicureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/TreatmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/Treatment/TreatmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Booking/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Booking/BookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/CancelationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/CancelationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/LoginServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/RegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Login/RegisterServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/MemberServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/MemberServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/PaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/SpaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/SpaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/TreatmentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/Treatment/TreatmentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/controller/CancelationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/domain/Cancelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/factory/CancelationFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/CancelationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/repository/Impl/CancelationRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/CancelationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thandiswa/service/Impl/CancelationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/CancelationControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/LoginControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/LoginControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/RegisterControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Login/RegisterControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/MemberControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/MemberControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/PaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/PaymentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/SpaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/SpaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/TreatmentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/controller/Treatment/TreatmentControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/factory/CancelationFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/CancelationRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thandiswa/service/Impl/CancelationServiceImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,11 +85,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -136,21 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Body/BodyWrapController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/AromatherapyContoller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/AromatherapyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImpl.java" />
@@ -162,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Treatment/Nail/PedicureController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/CancelationControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thandiswa/controller/CancellationController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Booking/BookingControllerTest.java" />
@@ -171,22 +139,38 @@
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/LoginControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/TreatmentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/CancellationControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/MemberControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/PaymentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/SpaControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Booking/BookingRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -250,6 +234,14 @@
               <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
               <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,34 +258,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="domainProject6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="domainProject6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thandiswa" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-              <item name="Treatment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,66 +316,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookingControllerTest.testGetBooking">
-    <configuration name="BookingControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.thandiswa.controller in domainProject6">
+    <configuration name="BookingRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.controller.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.repository.Impl.Booking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.controller.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.controller.Booking.BookingControllerTest" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl.Booking" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.repository.Impl.Booking.BookingRepositoryImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingControllerTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterControllerTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.controller.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.controller.Login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.controller.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.controller.Booking.BookingControllerTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.controller.Login" />
+      <option name="MAIN_CLASS_NAME" value="com.thandiswa.controller.Login.RegisterControllerTest" />
+      <option name="METHOD_NAME" value="getAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingControllerTest.testGetBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.thandiswa.controller in domainProject6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.controller.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.controller.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.controller.Booking.BookingControllerTest" />
-      <option name="METHOD_NAME" value="testGetBooking" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.controller" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingControllerTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.thandiswa.repository.Impl in domainProject6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="domainProject6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thandiswa.controller.Booking.*" />
+          <option name="PATTERN" value="com.thandiswa.repository.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.thandiswa.controller.Booking" />
-      <option name="MAIN_CLASS_NAME" value="com.thandiswa.controller.Booking.BookingControllerTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.thandiswa.repository.Impl" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.thandiswa.service.Impl in domainProject6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="domainProject6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thandiswa.service.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thandiswa.service.Impl" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,26 +403,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SPAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="domainProject6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thandiswa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thandiswa.SPAApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookingControllerTest.testGetBooking" />
-        <item itemvalue="JUnit.BookingControllerTest.create" />
-        <item itemvalue="JUnit.BookingControllerTest" />
-        <item itemvalue="JUnit.BookingControllerTest.update" />
-        <item itemvalue="Spring Boot.SPAApplication" />
+        <item itemvalue="JUnit.com.thandiswa.controller in domainProject6" />
+        <item itemvalue="JUnit.com.thandiswa.repository.Impl in domainProject6" />
+        <item itemvalue="JUnit.BookingRepositoryImplTest" />
+        <item itemvalue="JUnit.RegisterControllerTest.getAll" />
+        <item itemvalue="JUnit.com.thandiswa.service.Impl in domainProject6" />
       </list>
     </recent_temporary>
   </component>
@@ -476,44 +437,44 @@
       <workItem from="1557749037828" duration="14940000" />
       <workItem from="1557857322918" duration="111873000" />
       <workItem from="1558370626360" duration="9157000" />
-      <workItem from="1558452310875" duration="20223000" />
+      <workItem from="1558452310875" duration="26889000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SwedishMassageServiceImplTest - 2019.05.19 at 21h 31m 29s.xml">
-      <configuration name="SwedishMassageServiceImplTest" configurationId="JUnit" />
+    <history-entry file="com_thandiswa_repository_Impl_in_domainProject6 - 2019.05.22 at 09h 10m 12s.xml">
+      <configuration name="com.thandiswa.repository.Impl in domainProject6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TissueMassageRepositoryImplTest - 2019.05.19 at 21h 46m 07s.xml">
-      <configuration name="TissueMassageRepositoryImplTest" configurationId="JUnit" />
+    <history-entry file="com_thandiswa_service_Impl_in_domainProject6 - 2019.05.22 at 09h 11m 21s.xml">
+      <configuration name="com.thandiswa.service.Impl in domainProject6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TissueMassageServiceImplTest - 2019.05.19 at 21h 48m 58s.xml">
-      <configuration name="TissueMassageServiceImplTest" configurationId="JUnit" />
+    <history-entry file="com_thandiswa_controller_in_domainProject6 - 2019.05.22 at 09h 13m 29s.xml">
+      <configuration name="com.thandiswa.controller in domainProject6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest_update - 2019.05.20 at 20h 35m 06s.xml">
-      <configuration name="BookingControllerTest.update" configurationId="JUnit" />
+    <history-entry file="RegisterControllerTest_getAll - 2019.05.22 at 09h 20m 56s.xml">
+      <configuration name="RegisterControllerTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest_create - 2019.05.20 at 20h 36m 23s.xml">
-      <configuration name="BookingControllerTest.create" configurationId="JUnit" />
+    <history-entry file="RegisterControllerTest_getAll - 2019.05.22 at 09h 22m 01s.xml">
+      <configuration name="RegisterControllerTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest_update - 2019.05.21 at 00h 07m 21s.xml">
-      <configuration name="BookingControllerTest.update" configurationId="JUnit" />
+    <history-entry file="com_thandiswa_controller_in_domainProject6 - 2019.05.22 at 09h 22m 52s.xml">
+      <configuration name="com.thandiswa.controller in domainProject6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest_update - 2019.05.21 at 00h 07m 58s.xml">
-      <configuration name="BookingControllerTest.update" configurationId="JUnit" />
+    <history-entry file="com_thandiswa_controller_in_domainProject6 - 2019.05.22 at 09h 27m 54s.xml">
+      <configuration name="com.thandiswa.controller in domainProject6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest - 2019.05.21 at 19h 49m 40s.xml">
-      <configuration name="BookingControllerTest" configurationId="JUnit" />
+    <history-entry file="BookingRepositoryImplTest - 2019.05.22 at 09h 33m 41s.xml">
+      <configuration name="BookingRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest_create - 2019.05.21 at 19h 51m 34s.xml">
-      <configuration name="BookingControllerTest.create" configurationId="JUnit" />
+    <history-entry file="BookingRepositoryImplTest - 2019.05.22 at 09h 34m 23s.xml">
+      <configuration name="BookingRepositoryImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BookingControllerTest_testGetBooking - 2019.05.21 at 19h 52m 22s.xml">
-      <configuration name="BookingControllerTest.testGetBooking" configurationId="JUnit" />
+    <history-entry file="com_thandiswa_repository_Impl_in_domainProject6 - 2019.05.22 at 09h 48m 23s.xml">
+      <configuration name="com.thandiswa.repository.Impl in domainProject6" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366030000" />
+    <option name="totallyTimeSpent" value="372696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,7 +487,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50236964" side_tool="true" weight="0.27685326" />
       <window_info id="Designer" order="1" />
@@ -539,7 +499,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28805238" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28805238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,360 +532,360 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/controller/CancellationController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/LoginRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="455">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Login/RegisterRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/EmployeeRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Cancellation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/SpaAdminRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="167">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Staff/StaffRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Payment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyMaskRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Spa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Treatment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyMask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyScrub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="-452">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyScrubRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-359">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyTreatment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyTreatmentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="-444">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Body/BodyWraps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Body/BodyWrapsRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-427">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/AntiAgingFacialRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-447">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/AntAgingFacial.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/DeepCleansingRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/DeepCleansing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="-441">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Facial/FacialTreatmentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-387">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Facial/FacialTreatment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/AromatherapyRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        <state relative-caret-position="-353">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/Aromatherapy.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/MassageTreatmentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-378">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/MassageTreatment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/SwedishMassageRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Massage/TissueMassageRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/ManicureRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/NailTreatmentRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/Nail/PedicureRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/Treatment/TreatmentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/SwedishMassage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/MemberRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-274">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Massage/TissueMassage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/PaymentRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-356">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/Manicure.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/SpaRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-338">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/NailTreatment.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Booking/BookingServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/domain/Treatment/Nail/Pedicure.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/LoginServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Booking/BookingControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Login/RegisterServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="241">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/LoginControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/EmployeeServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="205">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Login/RegisterControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/SpaAdminServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="419">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyMaskControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Staff/StaffServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="66" column="68" lean-forward="true" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+        <state relative-caret-position="216">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyScrubControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyMaskServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+        <state relative-caret-position="-493">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyTreatmentControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyScrubServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="-471">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Body/BodyWrapControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyTreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="-529">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/AntiAgingFacialControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Body/BodyWrapsServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="-471">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/DeepCleansingControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/AntiAgingFacialServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="-499">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Facial/FacialTreatmentControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/DeepCleansingServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="-477">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/AromatherapyControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Facial/FacialTreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="-326">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/MassageTreatmentControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/AromatherapyServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        <state relative-caret-position="-236">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/SwedishMassageControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/MassageTreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+        <state relative-caret-position="-238">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Massage/TissueMassageControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/SwedishMassageServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        <state relative-caret-position="-208">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/ManicureControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Massage/TissueMassageServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="-247">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/NailTreatmentControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/ManicureServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="-227">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/Nail/PedicureControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/NailTreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="-277">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/Treatment/TreatmentControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/Nail/PedicureServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="-447">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/CancellationControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/Treatment/TreatmentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="-444">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/MemberControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/CancellationServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/PaymentControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/MemberServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="-485">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/controller/SpaControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/PaymentServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="-447">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/service/Impl/SpaServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="-408">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/controller/Booking/BookingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thandiswa/SPAApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thandiswa/repository/Impl/CancellationRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
         </state>
       </provider>
     </entry>

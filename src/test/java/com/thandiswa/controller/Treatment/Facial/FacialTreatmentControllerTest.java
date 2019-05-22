@@ -64,6 +64,6 @@ public class FacialTreatmentControllerTest {
 
         HttpEntity<String> entity = new HttpEntity<>(null, headers);
         ResponseEntity<String> response = restTemplate.exchange(baseURL + "/read/add", HttpMethod.GET, entity, String.class);
-        assertNotNull(response.getBody());
+        assertNotNull(response.getBody(),response);
     }
 }

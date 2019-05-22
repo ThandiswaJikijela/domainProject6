@@ -38,7 +38,7 @@ public class LoginRepositoryImplTest {
     public void read() {
         System.out.println("In read, username = "+ logIn.getUsername());
         LogIn read = this.repository.read(logIn.getUsername());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(logIn,read);
     }

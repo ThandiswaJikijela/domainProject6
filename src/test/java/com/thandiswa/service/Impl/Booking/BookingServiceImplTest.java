@@ -54,7 +54,7 @@ public class BookingServiceImplTest {
     public void read() {
         System.out.println("In read, treatmentType = "+ booking.getTreatmentType());
         Booking read = this.repository.read(booking.getTreatmentType());
-        System.out.println("In read, read = " + read);
+        //System.out.println("In read, read = " + read);
         getAll();
         assertNotEquals(booking,read);
     }
