@@ -3,6 +3,7 @@ package com.thandiswa.service.Impl.Staff;
 import com.thandiswa.domain.Staff.SpaAdmin;
 import com.thandiswa.factory.Staff.SpaAdminFactory;
 import com.thandiswa.repository.Impl.Staff.SpaAdminRepositoryImpl;
+import com.thandiswa.repository.Staff.SpaAdminRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
@@ -16,12 +17,12 @@ import static org.junit.Assert.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class SpaAdminServiceImplTest {
-    private SpaAdminRepositoryImpl repository;
+    private SpaAdminRepository repository;
     private SpaAdmin spaAdmin;
 
     @Before
     public void setUp() throws Exception {
-        this.repository = SpaAdminRepositoryImpl.getRepository();
+        this.repository = SpaAdminRepositoryImpl.getSpaAdminRepository();
         this.spaAdmin = SpaAdminFactory.getSpaAdmin("6548Tho");
     }
 

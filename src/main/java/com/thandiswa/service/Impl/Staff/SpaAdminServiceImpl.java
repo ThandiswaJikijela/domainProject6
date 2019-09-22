@@ -12,13 +12,14 @@ import java.util.Set;
 
 @Service
 public class SpaAdminServiceImpl implements SpaAdminService {
-    //@Autowired
-    @Qualifier("InMemory")
+
     private static SpaAdminServiceImpl service = null;
     private SpaAdminRepository repository;
 
-    private SpaAdminServiceImpl() {
-        this.repository = SpaAdminRepositoryImpl.getRepository();
+    private SpaAdminServiceImpl()
+    {
+
+        this.repository = SpaAdminRepositoryImpl.getSpaAdminRepository();
     }
 
     public static SpaAdminServiceImpl getService(){
@@ -28,26 +29,33 @@ public class SpaAdminServiceImpl implements SpaAdminService {
 
     @Override
     public SpaAdmin create(SpaAdmin spaAdmin) {
-        return null;
+        return this.repository.create(spaAdmin);
     }
 
     @Override
     public SpaAdmin update(SpaAdmin spaAdmin) {
-        return null;
+        return this.repository.update(spaAdmin);
     }
 
     @Override
     public void delete(String s) {
-
+       this.repository.delete(s);
     }
 
     @Override
     public SpaAdmin read(String s) {
-        return null;
+
+        return this.repository.read(s);
+    }
+
+    @Override
+    public SpaAdmin retrieveByDesc(String spaAdminDesc) {
+
+        return this.repository.retrieveByDesc(spaAdminDesc);
     }
 
     @Override
     public Set<SpaAdmin> getAll() {
-        return null;
+        return this.repository.getAll();
     }
 }

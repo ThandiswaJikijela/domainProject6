@@ -22,7 +22,7 @@ public class MemberRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        repository = MemberRepositoryImpl.getRepository();
+        repository = MemberRepositoryImpl.getMemberRepository();
         this.member = MemberFactory.getMember("East London","King","0864524362");
     }
 

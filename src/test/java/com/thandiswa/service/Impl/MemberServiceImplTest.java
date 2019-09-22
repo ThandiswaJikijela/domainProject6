@@ -16,12 +16,12 @@ import static org.junit.Assert.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class MemberServiceImplTest {
-    private MemberRepositoryImpl repository;
+    private MemberRepository repository;
     private Member member;
 
     @Before
     public void setUp() throws Exception {
-        repository = MemberRepositoryImpl.getRepository();
+        repository = MemberRepositoryImpl.getMemberRepository();
         this.member = MemberFactory.getMember("PortElizabeth","Zandile","061763465");
     }
 

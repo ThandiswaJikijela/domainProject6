@@ -23,7 +23,7 @@ public class SpaAdminRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        repository = SpaAdminRepositoryImpl.getRepository();
+        repository = SpaAdminRepositoryImpl.getSpaAdminRepository();
         this.spaAdmin = SpaAdminFactory.getSpaAdmin("Barr45#");
     }
 

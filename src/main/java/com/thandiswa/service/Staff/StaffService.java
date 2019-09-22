@@ -6,5 +6,6 @@ import com.thandiswa.service.IService;
 import java.util.Set;
 
 public interface StaffService extends IService<Staff, String> {
+    Staff retrieveByDesc(String staffDesc);
     Set<Staff> getAll();
 }

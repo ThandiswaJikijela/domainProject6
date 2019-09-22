@@ -18,7 +18,7 @@ public class MemberServiceImpl implements MemberService {
     private MemberRepository repository;
 
     private MemberServiceImpl() {
-        this.repository = MemberRepositoryImpl.getRepository();
+        this.repository = MemberRepositoryImpl.getMemberRepository();
     }
 
     public static MemberServiceImpl getService(){
@@ -44,6 +44,11 @@ public class MemberServiceImpl implements MemberService {
     @Override
     public Member read(String s) {
         return this.repository.read(s);
+    }
+
+    @Override
+    public Member retrieveByDesc(String memberDesc) {
+        return this.repository.retrieveByDesc(memberDesc);
     }
 
     @Override

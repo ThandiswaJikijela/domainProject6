@@ -18,7 +18,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeRepository repository;
 
     private EmployeeServiceImpl() {
-        this.repository = EmployeeRepositoryImpl.getRepository();
+        this.repository = EmployeeRepositoryImpl.getEmployeeRepository();
     }
 
     public static EmployeeServiceImpl getService(){
@@ -47,6 +47,11 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee read(String s) {
 
         return this.repository.read(s);
+    }
+
+    @Override
+    public Employee retrieveByDesc(String employeeDesc) {
+        return this.repository.retrieveByDesc(employeeDesc);
     }
 
     @Override

@@ -18,7 +18,7 @@ public class StaffServiceImpl implements StaffService {
     private StaffRepository repository;
 
     private StaffServiceImpl() {
-        this.repository = StaffRepositoryImpl.getRepository();
+        this.repository = StaffRepositoryImpl.getStaffRepository();
     }
 
     public static StaffServiceImpl getService(){
@@ -44,6 +44,11 @@ public class StaffServiceImpl implements StaffService {
     @Override
     public Staff read(String s) {
         return null;
+    }
+
+    @Override
+    public Staff retrieveByDesc(String staffDesc) {
+        return this.repository.retrieveByDesc(staffDesc);
     }
 
     @Override

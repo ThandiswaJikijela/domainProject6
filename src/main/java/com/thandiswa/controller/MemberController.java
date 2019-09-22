@@ -1,10 +1,15 @@
 package com.thandiswa.controller;
 
 import com.thandiswa.domain.Member;
+import com.thandiswa.domain.ResponseObj;
 import com.thandiswa.factory.MemberFactory;
+import com.thandiswa.factory.ResponseObjFactory;
 import com.thandiswa.service.Impl.MemberServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
@@ -12,42 +17,41 @@ import java.util.Map;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/Member")
+@RequestMapping("/spa/lookup/member")
 public class MemberController {
+
     @Autowired
-    @Qualifier("ServiceMemberImpl")
-    private MemberServiceImpl service;
+    private MemberServiceImpl memberService;
 
-    @GetMapping("/create/{name}")
-    public @ResponseBody
-    Member create(@PathVariable String name,String address, String phoneNumber){
-        Member member = MemberFactory.getMember(name,address,phoneNumber);
-        return service.create(member);
+    @PostMapping(value = "/create/{member}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity createMember(@PathVariable String member){
+        System.out.println(member);
+        ResponseObj responseObj = ResponseObjFactory.buildGenericResponseObj(HttpStatus.OK.toString(), "Member created!");
+        Member member1;
+        if (member == null || member.trim().isEmpty() || member.trim().equalsIgnoreCase("null")) {
+            responseObj.setResponseCode(HttpStatus.PRECONDITION_FAILED.toString());
+            responseObj.setResponseDescription("Provide member!");
+        } else {
+            member1 = memberService.retrieveByDesc(member);
+            if (member1 != null) {
+                responseObj.setResponseDescription("Member already exist!");
+            } else {
+                member1 = MemberFactory.getMember(member,member,member);
+                member1 = memberService.create(member1);
+            }
+            responseObj.setResponse(member1);
+        }
+        return ResponseEntity.ok(responseObj);
     }
 
-    @PostMapping("/update")
-    @ResponseBody
-    public Member update(Member member){
-        return service.update(member);
+    @GetMapping(value = "/getall", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity getAll(){
+        ResponseObj responseObj = ResponseObjFactory.buildGenericResponseObj(HttpStatus.OK.toString(), "Success");
+        Set<Member> members = memberService.getAll();
+        responseObj.setResponse(members);
+        return ResponseEntity.ok(responseObj);
     }
 
-    @PostMapping("/delete")
-    @ResponseBody
-    public void delete(String memberId){
-        service.delete(memberId);
-    }
-
-    @PostMapping("/read")
-    @ResponseBody
-    public Member read(String memberId){
-        return service.read(memberId);
-    }
-
-    @GetMapping("/getAll")
-    @ResponseBody
-    public Set<Member> getAll(){
-        return service.getAll();
-    }
 
 
 }

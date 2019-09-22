@@ -22,7 +22,7 @@ public class StaffRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        repository = StaffRepositoryImpl.getRepository();
+        repository = StaffRepositoryImpl.getStaffRepository();
         this.staff = StaffFactory.getStaff("rose39@yahoo.com","Bellville");
     }
 

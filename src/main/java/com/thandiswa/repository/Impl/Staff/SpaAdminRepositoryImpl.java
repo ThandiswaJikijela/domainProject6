@@ -7,47 +7,58 @@ import java.util.*;
 
 public class SpaAdminRepositoryImpl implements SpaAdminRepository {
 
-    private static SpaAdminRepositoryImpl repository = null;
-    private Map<String, SpaAdmin> spaAdminMap;
+    private static SpaAdminRepository spaAdminRepository;
 
-    private SpaAdminRepositoryImpl(){
-        this.spaAdminMap = new HashMap<String, SpaAdmin>();
+    private Set<SpaAdmin> spaAdmins;
+
+    private SpaAdminRepositoryImpl() {
+        this.spaAdmins = new HashSet<>();
     }
 
-    public static SpaAdminRepositoryImpl getRepository()
-    {
-        if (repository == null) repository = new SpaAdminRepositoryImpl();
-        return repository;
+    public static SpaAdminRepository getSpaAdminRepository (){
+        if (spaAdminRepository == null) spaAdminRepository = new SpaAdminRepositoryImpl();
+        return spaAdminRepository;
     }
 
     @Override
     public SpaAdmin create(SpaAdmin spaAdmin) {
-        this.spaAdminMap.put(spaAdmin.toString(),spaAdmin);
-        return this.spaAdminMap.get(spaAdmin.toString());
-    }
-
-    @Override
-    public SpaAdmin read(String a) {
-        SpaAdmin spaAdmin = spaAdminMap.get(toString());
+        this.spaAdmins.add(spaAdmin);
         return spaAdmin;
     }
 
     @Override
-    public SpaAdmin update(SpaAdmin spaAdmin) {
-        this.spaAdminMap.replace(spaAdmin.toString(),spaAdmin);
-        return this.spaAdminMap.get(spaAdmin.toString());
+    public SpaAdmin read(String s) {
+        return this.spaAdmins.stream()
+                .filter(spaAdmin -> spaAdmin.getAdminID().equalsIgnoreCase(s))
+                .findAny()
+                .orElse(null);
     }
 
     @Override
-    public void delete(String a) {
-        spaAdminMap.remove(toString());
+    public SpaAdmin update(SpaAdmin spaAdmin) {
+        SpaAdmin spaAdmin1 = read(spaAdmin.getPassword());
+        if (spaAdmin1 != null) {
+            delete(spaAdmin1.getPassword());
+            return create(spaAdmin);
+        }
+        return null;
+    }
+
+    @Override
+    public void delete(String s) {
+        SpaAdmin spaAdmin = read(s);
+        this.spaAdmins.remove(spaAdmin);
+    }
+
+    @Override
+    public SpaAdmin retrieveByDesc(String password) {
+        return this.spaAdmins.stream()
+                .filter(spaAdmin -> spaAdmin.getPassword().equalsIgnoreCase(password))
+                .findAny().orElse(null);
     }
 
     @Override
     public Set<SpaAdmin> getAll() {
-        Collection<SpaAdmin> spaAdmins = this.spaAdminMap.values();
-        Set<SpaAdmin> set = new HashSet<>();
-        set.addAll(spaAdmins);
-        return set;
+        return this.spaAdmins;
     }
 }

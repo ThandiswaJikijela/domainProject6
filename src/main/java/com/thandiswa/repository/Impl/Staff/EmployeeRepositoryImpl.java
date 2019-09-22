@@ -7,46 +7,58 @@ import java.util.*;
 
 public class EmployeeRepositoryImpl implements EmployeeRepository {
 
-    private static EmployeeRepositoryImpl repository = null;
-    private Map<String, Employee> employeeMap;
+    private static EmployeeRepository employeeRepository;
 
-    private EmployeeRepositoryImpl(){
-        this.employeeMap = new HashMap<String, Employee>();
+    private Set<Employee> employees;
+
+    private EmployeeRepositoryImpl() {
+        this.employees = new HashSet<>();
     }
 
-    public static EmployeeRepositoryImpl getRepository()
-    {
-        if (repository == null) repository = new EmployeeRepositoryImpl();
-        return repository;
+    public static EmployeeRepository  getEmployeeRepository(){
+        if (employeeRepository == null) employeeRepository = new EmployeeRepositoryImpl();
+        return employeeRepository;
     }
 
     @Override
     public Employee create(Employee employee) {
-         this.employeeMap.put(employee.toString(),employee);
-         return employee;
+        this.employees.add(employee);
+        return employee;
     }
 
     @Override
-    public Employee read(String e) {
-        return this.employeeMap.get(toString());
+    public Employee read(String s) {
+        return this.employees.stream()
+                .filter(employee -> employee.getUsername().equalsIgnoreCase(s))
+                .findAny()
+                .orElse(null);
     }
 
     @Override
     public Employee update(Employee employee) {
-        this.employeeMap.replace(employee.toString(),employee);
-        return this.employeeMap.get(employee.toString());
+        Employee employee1 = read(employee.getPassword());
+        if (employee1 != null) {
+            delete(employee1.getPassword());
+            return create(employee);
+        }
+        return null;
     }
 
     @Override
-    public void delete(String e) {
-        employeeMap.remove(toString());
+    public void delete(String s) {
+        Employee employee = read(s);
+        this.employees.remove(employee);
+    }
+
+    @Override
+    public Employee retrieveByDesc(String password) {
+        return this.employees.stream()
+                .filter(spaAdmin -> spaAdmin.getPassword().equalsIgnoreCase(password))
+                .findAny().orElse(null);
     }
 
     @Override
     public Set<Employee> getAll() {
-        Collection<Employee> employees = this.employeeMap.values();
-        Set<Employee> set = new HashSet<>();
-        set.addAll(employees);
-        return set;
+        return this.employees;
     }
 }

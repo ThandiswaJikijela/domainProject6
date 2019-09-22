@@ -3,6 +3,7 @@ package com.thandiswa.service.Impl.Staff;
 import com.thandiswa.domain.Staff.Staff;
 import com.thandiswa.factory.Staff.StaffFactory;
 import com.thandiswa.repository.Impl.Staff.StaffRepositoryImpl;
+import com.thandiswa.repository.Staff.StaffRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
@@ -15,12 +16,12 @@ import static org.junit.Assert.*;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class StaffServiceImplTest {
-    private StaffRepositoryImpl repository;
+    private StaffRepository repository;
     private Staff staff;
 
     @Before
     public void setUp() throws Exception {
-        repository = StaffRepositoryImpl.getRepository();
+        repository = StaffRepositoryImpl.getStaffRepository();
         this.staff = StaffFactory.getStaff("silver@yahoo.com","Nyanga");
     }
 

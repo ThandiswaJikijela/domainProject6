@@ -6,5 +6,6 @@ import com.thandiswa.repository.IRepository;
 import java.util.Set;
 
 public interface StaffRepository extends IRepository<Staff, String> {
+    Staff retrieveByDesc(String staffDesc);
     Set<Staff> getAll();
 }
